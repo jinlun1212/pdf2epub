@@ -4,7 +4,7 @@ Fix identified issues in the extracted EPUB files:
 2. Fix subject index formatting (remove incorrect <h2> tags, add line breaks between entries)
 3. Apply safe equation character substitutions where context is unambiguous
 
-Run from the project root directory.
+Run from anywhere: python scripts/fix_epub.py
 """
 import sys
 import io
@@ -16,7 +16,8 @@ from pathlib import Path
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
 sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8', errors='replace')
 
-EPUB_DIR = Path("output/full_book_extracted/EPUB")
+BASE_DIR = Path(__file__).parent.parent.resolve()
+EPUB_DIR = BASE_DIR / "output" / "full_book_extracted" / "EPUB"
 
 # Index pages (Subject Index + Author Index)
 INDEX_PAGES = set(range(857, 881))  # pages 857-880

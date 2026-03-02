@@ -1,9 +1,10 @@
 # Large files
 *.pdf
 *.docx
+*.epub
+!output/full_book_fixed.epub
 output/validation_renders/
 output/full_book_extracted/
-output/full_book.epub
 
 # Claude Code settings
 .claude/

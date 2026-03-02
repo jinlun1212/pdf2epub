@@ -1,71 +1,67 @@
-# PDF to EPUB to LaTeX Converter
+# PDF to EPUB Converter
 
-This toolkit converts PDFs to EPUB format, then optionally to LaTeX.
+Converts a PDF textbook to EPUB format with validation and automated fixes.
 
-## Files
+## Project Structure
 
-- **pdf2epub.ipynb** — Jupyter notebook for PDF → EPUB conversion
-- **epub2latex.py** — Standalone script for EPUB → LaTeX conversion
+```
+├── scripts/                         # All scripts
+│   ├── epub_extract.py              # Extract/modify/rebuild EPUB files
+│   ├── fix_epub.py                  # Apply fixes to extracted EPUB XHTML
+│   ├── validate_visual.py           # Visual comparison (render + pixel diff)
+│   ├── validate_epub.py             # Text-based validation
+│   ├── validate_deep.py             # Deep text validation with artifact filtering
+│   ├── pdf_chapter_to_epub.py       # PDF-to-EPUB chapter conversion
+│   ├── pdf_to_fixed_epub.py         # Fixed-layout PDF-to-EPUB conversion
+│   └── ...                          # Screen capture & pipeline utilities
+├── output/
+│   ├── full_book.epub               # Original converted EPUB
+│   ├── full_book_fixed.epub         # EPUB with all fixes applied
+│   └── full_book.docx               # DOCX output
+├── VALIDATION_REPORT.md             # Detailed validation findings
+├── AGENT_HANDOFF.md                 # Handoff documentation for continuing work
+├── validation_visual_report.json    # Per-page visual similarity scores
+├── requirements.txt
+└── .gitignore
+```
 
 ## Setup
 
-Install dependencies:
-
 ```bash
 pip install -r requirements.txt
+playwright install chromium
 ```
 
-For **EPUB → LaTeX conversion**, you also need **pandoc** (command-line tool):
-
-- **macOS:** `brew install pandoc`
-- **Linux:** `sudo apt install pandoc`
-- **Windows:** Download from https://pandoc.org/installing.html
+Chrome must be installed at the default path for EPUB rendering via Playwright.
 
 ## Usage
 
-### PDF to EPUB (Jupyter Notebook)
-
-1. Open `pdf2epub.ipynb` in Jupyter or VS Code
-2. Edit variables:
-   - `PDF_NAME` — path to your PDF
-   - `CHAPTER_START_PAGE` / `CHAPTER_END_PAGE` — page range
-3. Run cells in order
-4. Output: `output/chapter1.epub`
-
-### EPUB to LaTeX (Command-line)
+### Extract EPUB for editing
 
 ```bash
-python epub2latex.py book.epub book.tex
+python scripts/epub_extract.py output/full_book.epub --extract-only --temp-dir output/full_book_extracted
 ```
 
-Or use in Python:
+### Apply fixes to extracted EPUB
+
+```bash
+python scripts/fix_epub.py
+```
+
+### Rebuild EPUB after edits
 
 ```python
-from epub2latex import epub_to_latex
-
-epub_to_latex("chapter1.epub", "chapter1.tex")
+import sys; sys.path.insert(0, 'scripts')
+from epub_extract import create_epub
+create_epub("output/full_book_fixed.epub", "output/full_book_extracted")
 ```
 
-## LaTeX Compilation
-
-After generating `book.tex`, compile to PDF:
+### Run visual validation
 
 ```bash
-pdflatex -interaction=nonstopmode book.tex
+python scripts/validate_visual.py
 ```
 
-For better results with complex formatting:
+## Current Status
 
-```bash
-xelatex book.tex
-```
-
-## Requirements
-
-- Python 3.8+
-- `ebooklib` — for EPUB handling
-- `beautifulsoup4` — for HTML parsing (pdf2epub notebook)
-- `qpdf` — for PDF splitting (pdf2epub notebook)
-- `pdftohtml` — for PDF extraction (pdf2epub notebook)
-- `pandoc` — for format conversion (epub2latex script)
-
+See [VALIDATION_REPORT.md](VALIDATION_REPORT.md) for detailed findings and [AGENT_HANDOFF.md](AGENT_HANDOFF.md) for remaining work items.

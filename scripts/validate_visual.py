@@ -21,7 +21,7 @@ import numpy as np
 from playwright.sync_api import sync_playwright
 
 # --- Configuration ---
-BASE_DIR = Path(__file__).parent.resolve()
+BASE_DIR = Path(__file__).parent.parent.resolve()
 PDF_PATH = BASE_DIR / "options_futures_and_other_derivatives_11th.pdf"
 EPUB_DIR = BASE_DIR / "output" / "full_book_extracted" / "EPUB"
 CSS_PATH = EPUB_DIR / "style.css"

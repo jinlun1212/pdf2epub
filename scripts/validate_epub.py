@@ -14,9 +14,10 @@ from html.parser import HTMLParser
 import PyPDF2
 
 # --- Config ---
-PDF_PATH = "options_futures_and_other_derivatives_11th.pdf"
-EPUB_DIR = "output/full_book_extracted/EPUB"
-REPORT_PATH = "validation_report.json"
+BASE_DIR = Path(__file__).parent.parent.resolve()
+PDF_PATH = str(BASE_DIR / "options_futures_and_other_derivatives_11th.pdf")
+EPUB_DIR = str(BASE_DIR / "output" / "full_book_extracted" / "EPUB")
+REPORT_PATH = str(BASE_DIR / "validation_report.json")
 
 # --- HTML text extractor ---
 class HTMLTextExtractor(HTMLParser):

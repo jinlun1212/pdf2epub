@@ -18,8 +18,9 @@ import unicodedata
 
 import PyPDF2
 
-PDF_PATH = "options_futures_and_other_derivatives_11th.pdf"
-EPUB_DIR = "output/full_book_extracted/EPUB"
+BASE_DIR = Path(__file__).parent.parent.resolve()
+PDF_PATH = str(BASE_DIR / "options_futures_and_other_derivatives_11th.pdf")
+EPUB_DIR = str(BASE_DIR / "output" / "full_book_extracted" / "EPUB")
 
 # PDF extraction artifacts to ignore
 PDF_ARTIFACTS = re.compile(
@@ -294,7 +295,7 @@ def main():
             print(f"  Processed {i+1}/{len(epub_files)} pages...")
 
     # Save results
-    with open('validation_deep_report.json', 'w', encoding='utf-8') as f:
+    with open(str(BASE_DIR / 'validation_deep_report.json'), 'w', encoding='utf-8') as f:
         json.dump(results, f, indent=2, default=str)
 
     # Print summary
