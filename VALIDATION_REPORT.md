@@ -10,11 +10,7 @@
 
 ## Executive Summary
 
-All 880 pages were manually reviewed in two passes:
-- **Pages 1–300:** Text-based comparison (EPUB text vs PDF extracted text)
-- **Pages 301–880:** Visual comparison (EPUB content vs rendered PDF page images)
-
-The visual comparison method proved more effective, as PDF text extraction suffers from the same PearsonMATHPRO18 font encoding issues that caused problems in the original conversion.
+All 880 pages were manually reviewed using visual comparison — each EPUB page was compared against the corresponding PDF page rendered as a PNG image at 150 DPI. This method is the only reliable approach, as PDF text extraction suffers from the same PearsonMATHPRO18 font encoding issues that caused problems in the original conversion.
 
 ### Overall Quality Assessment
 

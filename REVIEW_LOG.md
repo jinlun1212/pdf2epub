@@ -25,13 +25,7 @@ Applied 4 safe, structural-only fixes before manual review:
 
 **Total:** 853 pages modified (structural only, no content changes).
 
-### Phase 2: Manual Review — Text-Based (Pages 1–300)
-**Method:** Read EPUB XHTML, extract PDF text with PyMuPDF for comparison.
-**Note:** This method was later replaced by visual comparison (see Phase 3).
-
-6 parallel review agents processed pages in batches of ~25 each.
-
-### Phase 3: Manual Review — Visual Comparison (Pages 301–880)
+### Phase 2: Manual Review — Visual Comparison (All 880 pages)
 **Method:** Render PDF pages as PNG images → visually inspect layout → compare with EPUB XHTML → fix discrepancies.
 **Tool:** `scripts/render_pdf_pages.py` renders pages to `output/pdf_renders/page_NNNN.png`
 
@@ -133,33 +127,51 @@ This approach was adopted after recognizing that text extraction from the PDF su
 
 ## Review Coverage by Batch
 
-### Batch 1: Pages 1–150 (Text comparison)
-- Front matter (1-23): Generally good, TOC and preface intact
-- Chapter 1-6 content: Fixed running headers, PearsonMATHPRO18 encoding, soft hyphens
-- Equation-heavy pages identified for targeted fixes
+All batches used visual comparison against rendered PDF page images (150 DPI PNG).
 
-### Batch 2: Pages 151–300 (Text comparison)
-- Chapters 7-13: Day count conventions fixed (>→/), chapter heading fragments removed
-- Section headings converted from `<p><strong>` to `<h2>`
-- Multiple Business Snapshot boxes cleaned up
+### Batch 1: Pages 1–50 (Visual comparison)
+- Front matter (1-23): Fixed running headers on preface pages, fixed chapter heading fragments
+- Chapter 1-2: Section headings promoted to `<h2>`, section numbers added, figure data deleted
+- 17 running headers removed, 7 section headings converted, 2 chapter headings fixed
 
-### Batch 3: Pages 301–450 (Visual comparison)
-- Chapters 14-20: First batch using PDF image comparison
-- Major improvement in detecting figure data as body text
+### Batch 2: Pages 51–100 (Visual comparison)
+- Chapters 2-4: 24 running headers removed, ~45 headings promoted
+- Dollar sign fixes (`+` → `$`), table/figure data deleted (6 pages)
+- Broken chapter headings reassembled (pages 70, 98)
+
+### Batch 3: Pages 101–150 (Visual comparison)
+- Chapters 4-5: 27 running headers removed, 35 headings promoted
+- PearsonMATHPRO18 fixes (`+`→`$`, `>`→`/`, `,`→`%`), misplaced headings relocated
+- Chapter 5 heading reassembled (page 124)
+
+### Batch 4: Pages 151–200 (Visual comparison)
+- Chapters 6-7: 24 running headers removed, 13 section numbers added
+- Major rewrites on 3 pages (176, 178, 186) to fix content ordering
+- Figure diagram labels and table data deleted from 5 pages
+
+### Batch 5: Pages 201–250 (Visual comparison)
+- Chapters 8-11: 20 running headers removed, 28 headings promoted
+- Figure axis labels deleted (pages 228, 230, 249)
+- Missing text restored (page 205), misplaced headings relocated (pages 240, 242)
+
+### Batch 6: Pages 251–300 (Visual comparison)
+- Chapters 11-13: 25 running headers removed, 12 section headings fixed
+- 75 soft hyphens removed, 12 pages of figure captions/axis labels deleted
+- Chapter headings fixed (pages 268, 288)
+
+### Batch 7: Pages 301–450 (Visual comparison)
+- Chapters 14-20: Figure data extensively cleaned from body text
 - Pages 312-314 replaced with full-page images (appendix equations)
-- Running headers systematically removed
 
-### Batch 4: Pages 451–600 (Visual comparison)
-- Chapters 21-26: Binomial tree data extensively cleaned from body text
-- Tables with garbled content identified and cleaned
+### Batch 8: Pages 451–600 (Visual comparison)
+- Chapters 21-26: Binomial tree data cleaned from body text
 - PearsonMATHPRO18 encoding fixes in options pricing formulas
 
-### Batch 5: Pages 601–740 (Visual comparison)
+### Batch 9: Pages 601–740 (Visual comparison)
 - Chapters 27-33: Interest rate models, credit derivatives
-- Continued systematic running header removal
 - Complex multi-line equation consolidation
 
-### Batch 6: Pages 741–880 (Visual comparison)
+### Batch 10: Pages 741–880 (Visual comparison)
 - Chapters 34-37 + back matter: Energy/commodity derivatives, real options
 - Glossary (828-850): Verified good
 - DerivaGem (851-856): Minor formatting
