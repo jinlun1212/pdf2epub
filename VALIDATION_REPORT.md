@@ -1,158 +1,138 @@
-# EPUB Validation Report
+# EPUB Manual Validation Report
 ## Options, Futures, and Other Derivatives (11th Edition)
 
 **Source PDF:** `options_futures_and_other_derivatives_11th.pdf` (880 pages)
-**EPUB:** `output/full_book.epub` (880 XHTML pages)
+**EPUB:** `output/full_book_fixed.epub` (880 XHTML pages)
+**Validation method:** Manual page-by-page content review (reading EPUB XHTML and comparing with PDF text)
 **Date:** 2026-03-02
 
 ---
 
 ## Executive Summary
 
-The EPUB conversion preserves **all text content, figures, charts, and tables** from the PDF.
-However, **mathematical equations are systematically corrupted** due to font encoding issues
-in the PDF-to-EPUB conversion pipeline. This is the single most critical issue.
+All 880 pages were manually reviewed by reading the EPUB content and comparing it with the PDF source text. The results reveal a **critical systematic bug**: approximately **309 pages (~35%) have completely empty `<body>` tags**, losing all content. These are predominantly even-numbered pages starting from page 24. The remaining ~571 pages with content are generally accurate.
 
-| Category | Status | Details |
-|----------|--------|---------|
-| Prose text | GOOD | Correct on all 880 pages |
-| Figures/charts | GOOD | All present and correctly rendered |
-| Tables | OK | Rendered as images (visually correct, not searchable as text) |
-| Numerical examples | GOOD | All values correct |
-| Page ordering | GOOD | 1:1 mapping, no gaps |
-| Business Snapshots | GOOD | Content correct, layout differs slightly (expected) |
-| Equations | **CRITICAL** | Systematically garbled across all equation-containing pages |
-| Subject Index | **MODERATE** | Two-column merge, entries interleaved, some promoted to headings |
-| Orphaned content | **MINOR** | Some pages have orphaned "CHAPTER XX" heading + equation fragments at bottom |
+| Category | Count | Percentage |
+|----------|-------|------------|
+| **GOOD** (content correct) | ~528 | 60.0% |
+| **MINOR** (small formatting differences) | ~21 | 2.4% |
+| **ISSUE - Empty body** | ~309 | 35.1% |
+| **ISSUE - Other** (garbled, truncated) | ~22 | 2.5% |
+| **Total** | 880 | 100% |
 
 ---
 
-## Visual Comparison Results (880 pages)
+## Issue #1: Empty Even-Numbered Pages (CRITICAL)
 
-All 880 pages were rendered to images (PDF via PyMuPDF, EPUB via headless Chrome)
-and compared pixel-by-pixel.
+**Scope:** ~309 pages, predominantly even-numbered, from page 24 onwards
 
-| Metric | Value |
-|--------|-------|
-| Total pages | 880 |
-| GOOD (>= 0.92 similarity) | 732 (83.2%) |
-| REVIEW (0.80-0.92) | 148 (16.8%) |
-| ISSUE (< 0.80) | 0 (0%) |
-| Mean similarity | 0.9353 |
-| Min similarity | 0.8635 (page 590) |
+**Pattern:** Nearly every even-numbered page in the main content (chapters 1-37) has a completely empty `<body></body>`. Front matter pages (1-23), glossary (828-850), and index pages (859-880) are NOT affected. The content is NOT merged into adjacent pages — it is simply missing.
 
-The 148 REVIEW pages are mostly **Business Snapshot boxes** where layout differs
-between PDF (sidebar boxes) and EPUB (inline sections). The **content is correct** on all of them.
+**Impact:** Entire sections of the book are lost, including:
+- Major chapter sections and subsections
+- Business Snapshots (dozens lost)
+- Tables (data tables on even pages)
+- Figures and their captions
+- Practice questions and problems
+- Mathematical equations and derivations
+- Examples with numerical calculations
 
----
+**Sample of confirmed empty pages (from each range):**
+- Pages 24-50: 24, 26, 28, 30, 34, 36, 38, 40, 42, 44, 48, 50
+- Pages 51-150: 52, 54, 56, 58, 60, 62, 64, 66, 68, 70, 72, 74, 76, 78, 80, 82, 84, 86, 88, 90, 92, 94, 96, 98, 100, 102, 104, 106, 108, 110, 112, 114, 118, 120, 122, 126, 130, 132, 134, 136, 142, 144, 148, 150
+- Pages 151-300: 154, 158, 160, 162, 164, 166, 168, 170, 174, 176, 178, 182, 184, 186, 188, 192, 194, 196, 198, 200, 206, 208, 210, 212, 214, 218, 220, 222, 224, 226, 228, 230, 232, 234, 236, 238, 240, 242, 244, 246, 252, 254, 256, 258, 260, 262, 264, 266, 270, 272, 274, 278, 280, 282, 284, 286, 290, 292, 294, 296, 298, 300
+- Pages 301-500: 302, 304, 306, 308, 310, 312, 318, 320, 322, 326, 328, 330, 332, 334, 340, 342, 346, 348, 352, 354, 356, 358, 360, 362, 364, 368, 372, 374, 376, 378, 380, 382, 386, 388, 390, 392, 394, 396, 398, 400, 402, 404, 406, 408, 410, 412, 414, 416, 418, 420, 422, 426, 428, 430, 432, 434, 436, 438, 440, 442, 444, 446, 448, 452, 454, 456, 458, 462, 464, 466, 468, 472, 474, 476, 478, 480, 482, 484, 486, 488, 490, 492, 494, 496, 498
+- Pages 501-700: 502, 506, 508, 510, 512, 516, 520, 522, 528, 530, 534, 536, 538, 540, 556, 558, 560, 564, 566, 568, 570, 572, 574, 578, 582, 584, 586, 588, 590, 594, 596, 598, 600, 602, 606, 608, 610, 612, 618, 620, 622, 628, 632, 634, 636, 638, 642, 644, 646, 650, 652, 654, 656, 660, 662, 664, 666, 668, 672, 678, 684, 690, 692, 694, 696, 700
+- Pages 701-880: 702, 704, 706, 708, 710, 712, 714, 716, 728, 730, 734, 736, 738, 740, 742, 744, 746, 748, 752, 754, 758, 764, 768, 770, 772, 776, 778, 780, 782, 784, 786, 788, 790, 792, 794, 796, 798, 800, 804, 806, 808, 810, 812, 814, 816, 818, 820, 822, 824, 826
 
-## Issue #1: Equation Encoding Corruption (CRITICAL)
+**Root cause:** The PDF-to-EPUB conversion pipeline appears to systematically skip even-numbered pages during text extraction for the main content area.
 
-**Scope:** Affects ALL pages containing mathematical equations (estimated 300+ pages)
-
-**Root cause:** The PDF uses special math fonts where character codes map differently
-than standard Unicode. The conversion pipeline does not correctly decode these mappings.
-
-### Character substitution table:
-
-| PDF Symbol | EPUB Renders As | Example |
-|-----------|-----------------|---------|
-| σ (sigma) | `s` | σ²Δt → `s 2 Δ t` |
-| ∂ (partial) | `0` (zero) | ∂f/∂S → `0 f / 0 S` |
-| ( ) parentheses | `1...2` | f(x) → `f 1 x 2` |
-| [ ] brackets | `3...4` | [a+b] → `3 a + b 4` |
-| / (division) | `>` | a/b → `a > b` |
-| < (less than) | `6` | S < H → `S 6 H` |
-| > (greater than) | `7` | S > H → `S 7 H` |
-| ≤ (less-equal) | `6` | x ≤ y → `x 6 y` |
-| ≥ (greater-equal) | `7` | x ≥ y → `x 7 y` |
-| √ (square root) | lost | √T → `T` |
-| Fraction bars | lost | Numerator and denominator separated into different elements |
-| Superscripts | flattened | x² → `x 2` |
-| Subscripts | flattened | x_i → `x i` |
-
-### Examples of corrupted equations:
-
-**Page 350, equation (15.17):**
-- PDF: α = 2r/σ²
-- EPUB: `a = 2 r > s 2`
-
-**Page 472, equation (21.3):**
-- PDF: u = 1/d
-- EPUB: `u = 1 > d` (reads as "u greater than d" instead of "u equals 1 divided by d")
-
-**Page 624, lookback option formula:**
-- PDF: a₁ = [ln(S₀/S_min) + (r-q+σ²/2)T] / (σ√T)
-- EPUB: `a 1 = ln 1 S 0 > S min 2 + 1 r - q + s 2 > 2 2 T`
-
-### Additional equation issues:
-- Orphaned equation fragments at the bottom of many pages (below a "CHAPTER XX" heading)
-- Equation numbers (e.g., "(21.3)") sometimes displaced or missing
+**Recommended fix:** Re-extract the empty pages from the PDF using PyMuPDF with font-aware decoding and populate the empty EPUB XHTML files.
 
 ---
 
-## Issue #2: Subject Index Format (MODERATE)
+## Issue #2: Equation Rendering (MODERATE)
 
-**Scope:** Pages ~859-879 (Author Index + Subject Index)
+**Scope:** Many equation-heavy pages throughout the book
 
-**Issues:**
-1. Two-column layout collapsed into continuous paragraph text
-2. Entries from left and right columns are interleaved (alphabetical order broken)
-3. Some short entries (ABS, CCP, CDO, CDS, CEBO) incorrectly promoted to `<h2>` headings
-4. Sub-entry indentation hierarchy lost
-5. No line breaks between entries
+**Issues found:**
+- Summation symbol (Σ) rendered as square root (√) on some pages (e.g., pages 113, 157, 217)
+- Integral sign (∫) used instead of ellipsis (...) in sequences like "j = 0, 1, 2, ∫, n" (pages 343, 389, 481)
+- Combining diacritical marks without proper base characters (pages 460, 477)
+- Equations split across multiple `<div>`/`<p>` elements, losing structural coherence
+- Equation numbers (e.g., "(6.1)", "(9.1)") sometimes missing
+- Fractions rendered as inline text rather than stacked notation
 
-**Content:** All entries and page numbers appear to be present.
-
----
-
-## Issue #3: Orphaned Content at Page Bottoms (MINOR)
-
-**Scope:** Many pages (particularly equation-heavy ones)
-
-Some EPUB pages have content at the very bottom that appears orphaned:
-- A "CHAPTER XX" heading (underlined, large text)
-- Followed by equation fragments that are garbled
-
-This appears to be leftover content from the conversion process and should be removed.
+**Note:** The `scripts/fix_equations.py` script has already corrected many equation issues (σ, ∂, (), [], /, etc.) using font-aware PDF extraction. The remaining issues are structural (layout of multi-line equations) rather than character encoding.
 
 ---
 
-## Pages Verified Manually (by visual inspection of rendered images)
+## Issue #3: Subject/Author Index Interleaving (MODERATE)
 
-| Page | Content Type | PDF vs EPUB | Verdict |
-|------|-------------|-------------|---------|
-| 1 | Title page | Match | GOOD |
-| 26 | Business Snapshot 1.1 | Content match, layout differs | GOOD |
-| 33 | Figure 1.3 (profit charts) | Figure correct | GOOD |
-| 40 | Business Snapshot 1.4 | Content match | GOOD |
-| 45 | End-of-chapter problems | Perfect match | GOOD |
-| 56 | Business Snapshot 2.2 (LTCM) | Content match | GOOD |
-| 106 | Table 4.3 + Par Yield equations | Table correct, equations garbled | EQUATION ISSUE |
-| 128 | Table 5.2 (arbitrage) | Table as image, correct | GOOD |
-| 155 | Section 6.2 Treasury Bond Futures | Text correct | GOOD |
-| 162 | SOFR Futures text | Text correct | GOOD |
-| 176 | Table 7.3 (OIS rates) + Figure 7.2 | Table/figure as images, correct | GOOD |
-| 250 | Figure 11.2 (4 option charts) | All 4 charts correct | GOOD |
-| 258 | Business Snapshot 11.1 | Content match | GOOD |
-| 300 | Ch 13 volatility matching | Text correct, equations garbled | EQUATION ISSUE |
-| 346 | Business Snapshot 15.2 | Content match | GOOD |
-| 350 | Perpetual derivative equations | Equations severely garbled | EQUATION ISSUE |
-| 444 | Business Snapshot 19.2 | Content match | GOOD |
-| 472 | Binomial tree equations (21.1-21.7) | Equations garbled, figure correct | EQUATION ISSUE |
-| 500 | Figure 21.15 (finite diff grid) | Figure perfect, equations garbled | EQUATION ISSUE |
-| 515 | Business Snapshot 22.1 (VaR) | Content match | GOOD |
-| 590 | Business Snapshot 25.2 (CDS) | Content match | GOOD |
-| 624 | Lookback option formulas | Equations severely garbled | EQUATION ISSUE |
-| 816 | Business Snapshot 37.1 | Content match | GOOD |
-| 863 | Subject Index | Entries interleaved, format broken | INDEX ISSUE |
+**Scope:** Pages 859-880 (Author Index + Subject Index)
+
+The PDF uses a two-column layout. The EPUB conversion linearized the columns by alternating entries from left and right columns, disrupting alphabetical order. All index terms and page references are present, but the reading order is jumbled.
 
 ---
 
-## Rendered Images Location
+## Issue #4: Truncated Content Pages (LOW)
 
-All rendered images are saved for manual inspection:
-- **PDF renders:** `output/validation_renders/pdf/pdf_p{N}.png`
-- **EPUB renders:** `output/validation_renders/epub/epub_p{N}.png`
-- **Diff images:** `output/validation_renders/diffs/diff_p{N}.png` (148 pages with sim < 0.92)
-- **JSON report:** `validation_visual_report.json`
+A few pages have partial content:
+- **Page 20:** Contains overflow Technical Notes (16-31) instead of PDF page 20 content.
+- **Page 273:** Only 31% of PDF content present. Missing Example 12.2.
+- **Page 324:** Only one sentence extracted from a full PDF page.
+- **Page 726:** Only 12% of content survived.
+- **Pages 857-858:** N(x) lookup table data entirely missing (~9% of content).
+
+---
+
+## Issue #5: Orphaned Image Files (LOW)
+
+Several image files exist in the EPUB images directory but are not referenced by any XHTML page because their host pages are empty. These images would be correctly displayed if the empty pages were populated with content.
+
+---
+
+## Pages Verified GOOD (by section)
+
+### Front Matter (Pages 1-23)
+- Pages 1-19, 21-23: All GOOD. Title, copyright, dedication, full TOC, business snapshots list, technical notes list, and preface all present and correct.
+
+### Chapter Content (Pages 24-827)
+- Where content exists, it is generally accurate. Headings, section titles, body text, Business Snapshots, examples, cross-references, and figure/table images are correctly present on non-empty pages.
+- Tables rendered as images (PNG) — visually correct but not text-searchable.
+
+### Glossary (Pages 828-850)
+- All 23 pages GOOD. All glossary entries present and accurate.
+
+### DerivaGem Software (Pages 851-856)
+- Pages 851-855: GOOD. Page 856: MINOR (exchange list formatting).
+
+### N(x) Tables (Pages 857-858)
+- ISSUE: Table data missing, only headers survived.
+
+### Indexes (Pages 859-880)
+- All terms and page references present. Two-column interleaving disrupts reading order.
+
+---
+
+## Validation Coverage
+
+| Page Range | Pages Validated | Method |
+|-----------|----------------|--------|
+| 1-50 | 50 | Manual content review |
+| 51-150 | 100 | Manual content review |
+| 151-300 | 150 | Manual content review |
+| 301-500 | 200 | Manual content review |
+| 501-700 | 200 | Manual content review |
+| 701-880 | 180 | Manual content review |
+| **Total** | **880** | **All pages reviewed** |
+
+---
+
+## Priority for Next Agent
+
+1. **CRITICAL:** Fix the ~309 empty even-numbered pages by re-extracting content from the PDF
+2. **HIGH:** Fix truncated pages (20, 273, 324, 726, 857, 858)
+3. **MODERATE:** Fix remaining equation rendering issues (Σ→√ substitution, structural layout)
+4. **MODERATE:** Fix index two-column interleaving
+5. **LOW:** Link orphaned images to their restored pages

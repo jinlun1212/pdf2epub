@@ -3,7 +3,6 @@
 *.docx
 *.epub
 !output/full_book_fixed.epub
-output/validation_renders/
 output/full_book_extracted/
 
 # Claude Code settings
@@ -17,10 +16,6 @@ __pycache__/
 # Temp files
 test_*.png
 *.tmp
-
-# Validation reports (large JSON)
-validation_report.json
-validation_deep_report.json
 
 # IDE
 .vscode/
