@@ -8,59 +8,86 @@ This project converts a PDF textbook ("Options, Futures, and Other Derivatives" 
 
 ### What's been done:
 
-1. **PDF-to-EPUB conversion** (pre-existing) — The PDF was converted to EPUB using scripts in `scripts/`. The resulting `output/full_book.epub` contains 880 XHTML pages, 314 images, CSS, and EPUB metadata.
+1. **PDF-to-EPUB conversion** (pre-existing) — The PDF was converted to EPUB using scripts in `scripts/`. The resulting `output/full_book.epub` contains 880 XHTML pages, 319 images, CSS, and EPUB metadata.
 
 2. **Extraction** — `scripts/epub_extract.py` extracts the EPUB into `output/full_book_extracted/` for editing individual XHTML pages.
 
-3. **Fixes applied** (`scripts/fix_epub.py`):
-   - **Orphaned content removed** (380 pages): Removed `<h1 id="chap-XXX">CHAPTER XX</h1>` tags and trailing equation fragments at page bottoms.
-   - **Index headings fixed** (13 pages): Converted incorrectly-tagged `<h2>` index entries back to `<p>` tags.
-   - **Index line breaks** (22 pages): Added `<br/>` tags between merged index entries in long paragraphs.
-   - **Equation encoding** (21 pages): Fixed `≤`/`≥` symbols and `∂f/∂t` partial derivative notation where context was unambiguous.
+3. **Structural fixes** (`scripts/fix_epub.py`):
+   - Orphaned content removed (380 pages)
+   - Index headings fixed (13 pages)
+   - Index line breaks added (22 pages)
+   - Equation encoding fixed (21 pages)
 
 4. **Equation font-aware fix** (`scripts/fix_equations.py`):
-   - Extracts text from PDF with font information using PyMuPDF
-   - Applies character corrections based on PearsonMATHPRO font mappings (σ, ∂, (), [], /, √, etc.)
-   - Replaces garbled equation text in EPUB with corrected text
-   - Fixes ~244 pages with ~1,159 corrections
+   - Corrects PearsonMATHPRO18 font encoding (σ, ∂, (), [], /, √, etc.)
+   - ~244 pages with ~1,159 corrections
 
 5. **Empty pages populated** (`scripts/fix_empty_pages.py`):
-   - 314 even-numbered pages (24-826) had completely empty `<body>` tags
-   - Script extracts content from PDF with font-aware decoding and generates XHTML
-   - All 314 pages now populated — zero empty pages remain
+   - 314 even-numbered pages extracted from PDF and populated
 
-6. **TOC navigation** — Added front matter (Title, Contents, Preface, etc.) and back matter (Glossary, Indexes) entries to the EPUB table of contents.
+6. **Safe structural cleanup** (`scripts/fix_formatting.py`):
+   - Merged split letter headings (37 pages)
+   - Merged adjacent `<em>`/`<strong>` tags (237/98 pages)
+   - Removed redundant inline styles (853 pages)
 
-7. **Manual validation** — All 880 pages reviewed manually. See `VALIDATION_REPORT.md` for detailed findings.
+7. **Comprehensive manual review** — All 880 pages reviewed manually:
+   - Pages 1-300: Text-based comparison with PDF
+   - Pages 301-880: Visual comparison against rendered PDF images
+   - See `REVIEW_LOG.md` for detailed findings and fix patterns
 
-8. **Rebuilt EPUB** — `output/full_book_fixed.epub` contains all fixes.
+8. **TOC navigation** — Front matter and back matter entries in EPUB table of contents.
+
+9. **Rebuilt EPUB** — `output/full_book_fixed.epub` contains all fixes.
 
 ### What still needs work:
 
-#### Index formatting (MODERATE)
+#### Truncated Pages (HIGH)
+Pages 273, 324, and 726 have significantly less content than the PDF. Pages 857-858 (N(x) tables) have missing table data. These need careful re-extraction from the PDF.
 
-The Subject/Author Index (pages ~857-880) has entries from two PDF columns interleaved. The line breaks added by `scripts/fix_epub.py` help but don't fully fix the ordering. A proper fix would require re-extracting the index from the PDF with column-aware parsing.
+#### Equation Layout (MODERATE)
+Multi-line equations can't fully replicate PDF visual layout in text format. Some complex equations remain imperfect.
+
+#### Index Ordering (MODERATE)
+Pages 859-880 (Author/Subject Index) may still have minor two-column interleaving issues despite de-interleaving fixes.
+
+#### Remaining Encoding (LOW)
+Some PearsonMATHPRO18 encoding may remain in pages not caught by automated fixes or manual review.
+
+## IMPORTANT: Visual Comparison Required
+
+**Do NOT extract text from the PDF for comparison.** The PDF uses custom fonts (PearsonMATHPRO18) that encode ASCII characters as math symbols. Text extraction produces the same garbled output that caused EPUB issues in the first place.
+
+**Instead:** Render PDF pages as images and compare visually:
+```bash
+python scripts/render_pdf_pages.py --pages 301-325  # renders specific pages
+python scripts/render_pdf_pages.py --all             # renders all 880 pages
+```
+Output: `output/pdf_renders/page_NNNN.png` at 150 DPI.
 
 ## File Structure
 
 ```
-├── scripts/                         # All scripts
-│   ├── epub_extract.py              # Extract/modify/rebuild EPUB files (CLI tool)
-│   ├── fix_epub.py                  # Apply fixes to extracted EPUB XHTML files
-│   ├── fix_equations.py             # Font-aware equation correction using PDF extraction
-│   ├── fix_empty_pages.py           # Populate empty pages from PDF extraction
-│   ├── pdf_chapter_to_epub.py       # Original: chapter-level PDF-to-EPUB conversion
-│   ├── pdf_to_fixed_epub.py         # Original: fixed-layout PDF-to-EPUB conversion
-│   ├── capture_books_epub_pages.sh  # macOS Books app screen capture
-│   ├── capture_books_epub_until_end.py
-│   ├── init_epub_screen_tracker.py
-│   └── pages_first20_pipeline.py
+├── scripts/
+│   ├── epub_extract.py              # Extract/modify/rebuild EPUB files
+│   ├── fix_epub.py                  # Structural fixes (orphans, index, equations)
+│   ├── fix_equations.py             # Font-aware equation correction
+│   ├── fix_empty_pages.py           # Populate empty pages from PDF
+│   ├── fix_formatting.py            # Safe structural cleanup (tag merging, styles)
+│   ├── render_pdf_pages.py          # Render PDF pages as PNG for comparison
+│   ├── pdf_chapter_to_epub.py       # Original chapter-level converter
+│   ├── pdf_to_fixed_epub.py         # Original fixed-layout converter
+│   └── (other utility scripts)
 ├── output/
 │   ├── full_book.epub               # Original converted EPUB (unmodified)
 │   ├── full_book_fixed.epub         # Fixed EPUB (with all fixes applied)
-│   ├── full_book.docx               # DOCX output
-│   └── full_book_extracted/         # Extracted EPUB files (for editing, regenerable)
-├── VALIDATION_REPORT.md             # Manual page-by-page validation results
+│   ├── full_book_extracted/         # Extracted EPUB files (for editing)
+│   │   └── EPUB/
+│   │       ├── full_book_v7_p*.xhtml  # 880 XHTML pages
+│   │       ├── images/                # 319 images
+│   │       └── style.css              # Stylesheet
+│   └── pdf_renders/                 # Rendered PDF page images (generated on demand)
+├── REVIEW_LOG.md                    # Detailed review findings and fix patterns
+├── VALIDATION_REPORT.md             # Validation summary
 ├── AGENT_HANDOFF.md                 # This file
 ├── README.md
 ├── .gitignore
@@ -70,20 +97,31 @@ The Subject/Author Index (pages ~857-880) has entries from two PDF columns inter
 ## Key Dependencies
 
 ```
-PyMuPDF       # PDF text extraction with font info, page rendering (fitz)
+PyMuPDF (fitz)  # PDF text extraction with font info, page rendering
 ```
 
 ## Workflow to rebuild EPUB after edits:
 
 ```bash
-# From the project root directory:
 python -c "import sys; sys.path.insert(0,'scripts'); from epub_extract import create_epub; create_epub('output/full_book_fixed.epub', 'output/full_book_extracted')"
 ```
 
-## Workflow to apply fixes after extraction:
+## PearsonMATHPRO18 Encoding Reference
 
-```bash
-python scripts/fix_epub.py         # Apply structural fixes (orphans, index, etc.)
-python scripts/fix_equations.py    # Apply font-aware equation corrections
-python scripts/fix_empty_pages.py  # Populate empty pages from PDF
-```
+| PDF Symbol | Extracted As | Correct |
+|-----------|-------------|---------|
+| `$` | `+` | `$` |
+| `(` | `1` | `(` |
+| `)` | `2` | `)` |
+| `[` | `3` | `[` |
+| `]` | `4` | `]` |
+| `/` | `>` | `/` |
+| `σ` | `s` | `σ` |
+| `μ` | `m` | `μ` |
+| `ε` | `P`/`∏` | `ε` |
+| `ρ` | `r` | `ρ` |
+| `λ` | `l` | `λ` |
+| `≤` | `6` | `≤` |
+| `≥` | `7` | `≥` |
+| `Σ` | `√` | `Σ` |
+| `∂` | `0` | `∂` |

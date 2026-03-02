@@ -4,6 +4,7 @@
 *.epub
 !output/full_book_fixed.epub
 output/full_book_extracted/
+output/pdf_renders/
 
 # Claude Code settings
 .claude/
@@ -15,6 +16,7 @@ __pycache__/
 
 # Temp files
 test_*.png
+output/pdf_page_*.png
 *.tmp
 
 # IDE
