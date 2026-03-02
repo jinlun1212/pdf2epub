@@ -1,0 +1,26 @@
+# Large files
+*.pdf
+*.docx
+output/validation_renders/
+output/full_book_extracted/
+output/full_book.epub
+
+# Claude Code settings
+.claude/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Temp files
+test_*.png
+*.tmp
+
+# Validation reports (large JSON)
+validation_report.json
+validation_deep_report.json
+
+# IDE
+.vscode/
+.idea/
