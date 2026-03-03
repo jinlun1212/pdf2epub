@@ -5,6 +5,7 @@
 !output/full_book_fixed.epub
 output/full_book_extracted/
 output/pdf_renders/
+output/epub_renders/
 
 # Claude Code settings
 .claude/
