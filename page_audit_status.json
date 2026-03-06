@@ -5625,16 +5625,18 @@
       "epub_render": "output\\epub_renders\\page_0467.png"
     },
     "468": {
-      "status": "needs_review",
-      "agent": "claude-audit",
-      "timestamp": "2026-03-03T07:22:50.235709+00:00",
-      "pdf_observation": "PDF page 468: 2 equation(s)",
-      "epub_observation": "EPUB page 468: Content present but Figure 20A.1 (butterfly spread diagram) not extracted from PDF",
-      "comparison_summary": "Image needs extraction from PDF",
+      "status": "completed",
+      "agent": "claude-code",
+      "timestamp": "2026-03-06T20:59:23.160133+00:00",
+      "pdf_observation": "PDF page 468 shows equation (20A.2) at top, followed by Figure 20A.1 (butterfly spread payoff diagram with Payoff y-axis, S_T x-axis, triangular payoff peaking at K with width 2delta), then Example 20A.1 with g(S_T) definitions and numerical calculations.",
+      "epub_observation": "EPUB page 468 now shows equation (20A.2) with correct subscripts, Figure 20A.1 as an embedded PNG image of the butterfly spread payoff diagram, Example 20A.1 heading, g(S_T) definitions with proper italic/subscript formatting, and the g_1 calculation with superscripts.",
+      "comparison_summary": "Figure 20A.1 butterfly spread diagram now renders in EPUB matching the PDF. All text, equations, subscripts, and numerical values match.",
       "issues": [
-        "Figure 20A.1 (butterfly spread diagram) not extracted from PDF"
+        "Figure 20A.1 butterfly spread diagram was not extracted from PDF - only a placeholder comment existed."
       ],
-      "fixes": [],
+      "fixes": [
+        "Extracted the vector figure from PDF page 468 as a high-resolution clipped PNG render and embedded it in the XHTML with proper fig-block/fig-img markup."
+      ],
       "pdf_render": "output\\pdf_renders\\page_0468.png",
       "epub_render": "output\\epub_renders\\page_0468.png"
     },
@@ -10311,30 +10313,34 @@
       "epub_render": "output\\epub_renders\\page_0856.png"
     },
     "857": {
-      "status": "needs_review",
-      "agent": "claude-audit",
-      "timestamp": "2026-03-03T07:22:50.235709+00:00",
-      "pdf_observation": "PDF page 857: 2 equation(s)",
-      "epub_observation": "EPUB page 857: Content present but N(x) table for x<=0 is missing - placeholder only",
-      "comparison_summary": "Table data needs manual extraction from PDF",
+      "status": "completed",
+      "agent": "claude-code",
+      "timestamp": "2026-03-06T20:59:39.332967+00:00",
+      "pdf_observation": "PDF page 857 shows the Table for N(x) When x <= 0 heading, interpolation example (N(-0.1234) = 0.4509), and a full 41-row by 11-column cumulative normal distribution table with x values from -0.0 to -4.0 and column headers .00 through .09.",
+      "epub_observation": "EPUB page 857 now shows the same heading, interpolation example with correct equations, and the complete N(x) table as a properly formatted HTML table with all 41 rows of data matching the PDF values.",
+      "comparison_summary": "N(x) table for x <= 0 is now fully populated in EPUB with all 410 numeric values matching the PDF. Table structure, alignment, and header formatting match.",
       "issues": [
-        "N(x) table for x<=0 is missing - placeholder only"
+        "N(x) table for x <= 0 was missing - only a placeholder text existed."
       ],
-      "fixes": [],
+      "fixes": [
+        "Extracted all 41 rows of N(x) table data from PDF using PyMuPDF text extraction and built a proper HTML table with thead/tbody, right-aligned numeric cells, and bold row labels."
+      ],
       "pdf_render": "output\\pdf_renders\\page_0857.png",
       "epub_render": "output\\epub_renders\\page_0857.png"
     },
     "858": {
-      "status": "needs_review",
-      "agent": "claude-audit",
-      "timestamp": "2026-03-03T07:22:50.235709+00:00",
-      "pdf_observation": "PDF page 858: 3 equation(s)",
-      "epub_observation": "EPUB page 858: Content present but N(x) table for x>=0 is missing - placeholder only",
-      "comparison_summary": "Table data needs manual extraction from PDF",
+      "status": "completed",
+      "agent": "claude-code",
+      "timestamp": "2026-03-06T20:59:52.117497+00:00",
+      "pdf_observation": "PDF page 858 shows the Table for N(x) When x >= 0 heading, interpolation example (N(0.6278) = 0.7350), and a full 41-row by 11-column cumulative normal distribution table with x values from 0.0 to 4.0 and column headers .00 through .09.",
+      "epub_observation": "EPUB page 858 now shows the same heading, interpolation example with correct equations, and the complete N(x) table as a properly formatted HTML table with all 41 rows of data matching the PDF values.",
+      "comparison_summary": "N(x) table for x >= 0 is now fully populated in EPUB with all 410 numeric values matching the PDF. Table structure, alignment, and header formatting match.",
       "issues": [
-        "N(x) table for x>=0 is missing - placeholder only"
+        "N(x) table for x >= 0 was missing - only a placeholder text existed."
       ],
-      "fixes": [],
+      "fixes": [
+        "Extracted all 41 rows of N(x) table data from PDF using PyMuPDF text extraction and built a proper HTML table with thead/tbody, right-aligned numeric cells, and bold row labels."
+      ],
       "pdf_render": "output\\pdf_renders\\page_0858.png",
       "epub_render": "output\\epub_renders\\page_0858.png"
     },
