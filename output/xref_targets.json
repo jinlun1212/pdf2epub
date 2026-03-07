@@ -1,0 +1,2819 @@
+{
+  "chapters": {
+    "1": {
+      "file": "full_book_v7_p23.xhtml",
+      "page": 23,
+      "id": "chap-1"
+    },
+    "2": {
+      "file": "full_book_v7_p46.xhtml",
+      "page": 46,
+      "id": "chap-2"
+    },
+    "3": {
+      "file": "full_book_v7_p70.xhtml",
+      "page": 70,
+      "id": "chap-3"
+    },
+    "4": {
+      "file": "full_book_v7_p98.xhtml",
+      "page": 98,
+      "id": "chap-4"
+    },
+    "5": {
+      "file": "full_book_v7_p124.xhtml",
+      "page": 124,
+      "id": "chap-5"
+    },
+    "6": {
+      "file": "full_book_v7_p152.xhtml",
+      "page": 152,
+      "id": "chap-6"
+    },
+    "7": {
+      "file": "full_book_v7_p172.xhtml",
+      "page": 172,
+      "id": "chap-7"
+    },
+    "8": {
+      "file": "full_book_v7_p201.xhtml",
+      "page": 201,
+      "id": "chap-8"
+    },
+    "9": {
+      "file": "full_book_v7_p216.xhtml",
+      "page": 216,
+      "id": "chap-9"
+    },
+    "10": {
+      "file": "full_book_v7_p227.xhtml",
+      "page": 227,
+      "id": "chap-10"
+    },
+    "11": {
+      "file": "full_book_v7_p247.xhtml",
+      "page": 247,
+      "id": "chap-11"
+    },
+    "12": {
+      "file": "full_book_v7_p268.xhtml",
+      "page": 268,
+      "id": "chap-12"
+    },
+    "13": {
+      "file": "full_book_v7_p288.xhtml",
+      "page": 288,
+      "id": "chap-13"
+    },
+    "14": {
+      "file": "full_book_v7_p316.xhtml",
+      "page": 316,
+      "id": "chap-14"
+    },
+    "15": {
+      "file": "full_book_v7_p338.xhtml",
+      "page": 338,
+      "id": "chap-15"
+    },
+    "16": {
+      "file": "full_book_v7_p371.xhtml",
+      "page": 371,
+      "id": "chap-16"
+    },
+    "17": {
+      "file": "full_book_v7_p384.xhtml",
+      "page": 384,
+      "id": "chap-17"
+    },
+    "18": {
+      "file": "full_book_v7_p401.xhtml",
+      "page": 401,
+      "id": "chap-18"
+    },
+    "19": {
+      "file": "full_book_v7_p417.xhtml",
+      "page": 417,
+      "id": "chap-19"
+    },
+    "20": {
+      "file": "full_book_v7_p451.xhtml",
+      "page": 451,
+      "id": "chap-20"
+    },
+    "21": {
+      "file": "full_book_v7_p470.xhtml",
+      "page": 470,
+      "id": "chap-21"
+    },
+    "22": {
+      "file": "full_book_v7_p514.xhtml",
+      "page": 514,
+      "id": "chap-22"
+    },
+    "23": {
+      "file": "full_book_v7_p542.xhtml",
+      "page": 542,
+      "id": "chap-23"
+    },
+    "24": {
+      "file": "full_book_v7_p562.xhtml",
+      "page": 562,
+      "id": "chap-24"
+    },
+    "25": {
+      "file": "full_book_v7_p587.xhtml",
+      "page": 587,
+      "id": "chap-25"
+    },
+    "26": {
+      "file": "full_book_v7_p614.xhtml",
+      "page": 614,
+      "id": "chap-26"
+    },
+    "27": {
+      "file": "full_book_v7_p640.xhtml",
+      "page": 640,
+      "id": "chap-27"
+    },
+    "28": {
+      "file": "full_book_v7_p670.xhtml",
+      "page": 670,
+      "id": "chap-28"
+    },
+    "29": {
+      "file": "full_book_v7_p688.xhtml",
+      "page": 688,
+      "id": "chap-29"
+    },
+    "30": {
+      "file": "full_book_v7_p707.xhtml",
+      "page": 707,
+      "id": "chap-30"
+    },
+    "31": {
+      "file": "full_book_v7_p719.xhtml",
+      "page": 719,
+      "id": "chap-31"
+    },
+    "32": {
+      "file": "full_book_v7_p732.xhtml",
+      "page": 732,
+      "id": "chap-32"
+    },
+    "33": {
+      "file": "full_book_v7_p755.xhtml",
+      "page": 755,
+      "id": "chap-33"
+    },
+    "34": {
+      "file": "full_book_v7_p773.xhtml",
+      "page": 773,
+      "id": "chap-34"
+    },
+    "35": {
+      "file": "full_book_v7_p785.xhtml",
+      "page": 785,
+      "id": "chap-35"
+    },
+    "36": {
+      "file": "full_book_v7_p802.xhtml",
+      "page": 802,
+      "id": "chap-36"
+    },
+    "37": {
+      "file": "full_book_v7_p815.xhtml",
+      "page": 815,
+      "id": "chap-37"
+    }
+  },
+  "tables": {
+    "1.1": {
+      "file": "full_book_v7_p28.xhtml",
+      "page": 28,
+      "id": "tbl-1-1"
+    },
+    "7.3": {
+      "file": "full_book_v7_p176.xhtml",
+      "page": 176,
+      "id": "tbl-7-3"
+    },
+    "7.7": {
+      "file": "full_book_v7_p188.xhtml",
+      "page": 188,
+      "id": "tbl-7-7"
+    },
+    "17.2": {
+      "file": "full_book_v7_p386.xhtml",
+      "page": 386,
+      "id": "tbl-17-2"
+    },
+    "19.1": {
+      "file": "full_book_v7_p420.xhtml",
+      "page": 420,
+      "id": "tbl-19-1"
+    },
+    "19.4": {
+      "file": "full_book_v7_p426.xhtml",
+      "page": 426,
+      "id": "tbl-19-4"
+    },
+    "19.5": {
+      "file": "full_book_v7_p438.xhtml",
+      "page": 438,
+      "id": "tbl-19-5"
+    },
+    "19.6": {
+      "file": "full_book_v7_p439.xhtml",
+      "page": 439,
+      "id": "tbl-19-6"
+    },
+    "20.1": {
+      "file": "full_book_v7_p454.xhtml",
+      "page": 454,
+      "id": "tbl-20-1"
+    },
+    "20.3": {
+      "file": "full_book_v7_p462.xhtml",
+      "page": 462,
+      "id": "tbl-20-3"
+    },
+    "21.1": {
+      "file": "full_book_v7_p490.xhtml",
+      "page": 490,
+      "id": "tbl-21-1"
+    },
+    "21.2": {
+      "file": "full_book_v7_p492.xhtml",
+      "page": 492,
+      "id": "tbl-21-2"
+    },
+    "21.3": {
+      "file": "full_book_v7_p495.xhtml",
+      "page": 495,
+      "id": "tbl-21-3"
+    },
+    "22.4": {
+      "file": "full_book_v7_p520.xhtml",
+      "page": 520,
+      "id": "tbl-22-4"
+    },
+    "24.4": {
+      "file": "full_book_v7_p582.xhtml",
+      "page": 582,
+      "id": "tbl-24-4"
+    },
+    "25.5": {
+      "file": "full_book_v7_p594.xhtml",
+      "page": 594,
+      "id": "tbl-25-5"
+    },
+    "25.6": {
+      "file": "full_book_v7_p600.xhtml",
+      "page": 600,
+      "id": "tbl-25-6"
+    },
+    "26.1": {
+      "file": "full_book_v7_p634.xhtml",
+      "page": 634,
+      "id": "tbl-26-1"
+    },
+    "27.5": {
+      "file": "full_book_v7_p662.xhtml",
+      "page": 662,
+      "id": "tbl-27-5"
+    },
+    "31.1": {
+      "file": "full_book_v7_p728.xhtml",
+      "page": 728,
+      "id": "tbl-31-1"
+    }
+  },
+  "equations": {
+    "3.2": {
+      "file": "full_book_v7_p81.xhtml",
+      "page": 81,
+      "id": "eq-3-2"
+    },
+    "3.3": {
+      "file": "full_book_v7_p83.xhtml",
+      "page": 83,
+      "id": "eq-3-3"
+    },
+    "3.5": {
+      "file": "full_book_v7_p86.xhtml",
+      "page": 86,
+      "id": "eq-3-5"
+    },
+    "3A.1": {
+      "file": "full_book_v7_p96.xhtml",
+      "page": 96,
+      "id": "eq-3A-1"
+    },
+    "4.1": {
+      "file": "full_book_v7_p102.xhtml",
+      "page": 102,
+      "id": "eq-4-1"
+    },
+    "4.2": {
+      "file": "full_book_v7_p103.xhtml",
+      "page": 103,
+      "id": "eq-4-2"
+    },
+    "4.3": {
+      "file": "full_book_v7_p104.xhtml",
+      "page": 104,
+      "id": "eq-4-3"
+    },
+    "4.4": {
+      "file": "full_book_v7_p104.xhtml",
+      "page": 104,
+      "id": "eq-4-4"
+    },
+    "4.5": {
+      "file": "full_book_v7_p110.xhtml",
+      "page": 110,
+      "id": "eq-4-5"
+    },
+    "4.6": {
+      "file": "full_book_v7_p110.xhtml",
+      "page": 110,
+      "id": "eq-4-6"
+    },
+    "4.7": {
+      "file": "full_book_v7_p112.xhtml",
+      "page": 112,
+      "id": "eq-4-7"
+    },
+    "4.8": {
+      "file": "full_book_v7_p113.xhtml",
+      "page": 113,
+      "id": "eq-4-8"
+    },
+    "4.9": {
+      "file": "full_book_v7_p113.xhtml",
+      "page": 113,
+      "id": "eq-4-9"
+    },
+    "4.10": {
+      "file": "full_book_v7_p113.xhtml",
+      "page": 113,
+      "id": "eq-4-10"
+    },
+    "4.11": {
+      "file": "full_book_v7_p113.xhtml",
+      "page": 113,
+      "id": "eq-4-11"
+    },
+    "4.12": {
+      "file": "full_book_v7_p113.xhtml",
+      "page": 113,
+      "id": "eq-4-12"
+    },
+    "4.13": {
+      "file": "full_book_v7_p115.xhtml",
+      "page": 115,
+      "id": "eq-4-13"
+    },
+    "4.14": {
+      "file": "full_book_v7_p116.xhtml",
+      "page": 116,
+      "id": "eq-4-14"
+    },
+    "5.1": {
+      "file": "full_book_v7_p127.xhtml",
+      "page": 127,
+      "id": "eq-5-1"
+    },
+    "5.2": {
+      "file": "full_book_v7_p130.xhtml",
+      "page": 130,
+      "id": "eq-5-2"
+    },
+    "5.3": {
+      "file": "full_book_v7_p132.xhtml",
+      "page": 132,
+      "id": "eq-5-3"
+    },
+    "5.4": {
+      "file": "full_book_v7_p133.xhtml",
+      "page": 133,
+      "id": "eq-5-4"
+    },
+    "5.5": {
+      "file": "full_book_v7_p134.xhtml",
+      "page": 134,
+      "id": "eq-5-5"
+    },
+    "5.6": {
+      "file": "full_book_v7_p134.xhtml",
+      "page": 134,
+      "id": "eq-5-6"
+    },
+    "5.7": {
+      "file": "full_book_v7_p134.xhtml",
+      "page": 134,
+      "id": "eq-5-7"
+    },
+    "5.8": {
+      "file": "full_book_v7_p136.xhtml",
+      "page": 136,
+      "id": "eq-5-8"
+    },
+    "5.9": {
+      "file": "full_book_v7_p138.xhtml",
+      "page": 138,
+      "id": "eq-5-9"
+    },
+    "5.10": {
+      "file": "full_book_v7_p141.xhtml",
+      "page": 141,
+      "id": "eq-5-10"
+    },
+    "5.11": {
+      "file": "full_book_v7_p141.xhtml",
+      "page": 141,
+      "id": "eq-5-11"
+    },
+    "5.12": {
+      "file": "full_book_v7_p142.xhtml",
+      "page": 142,
+      "id": "eq-5-12"
+    },
+    "5.13": {
+      "file": "full_book_v7_p142.xhtml",
+      "page": 142,
+      "id": "eq-5-13"
+    },
+    "5.14": {
+      "file": "full_book_v7_p142.xhtml",
+      "page": 142,
+      "id": "eq-5-14"
+    },
+    "5.18": {
+      "file": "full_book_v7_p144.xhtml",
+      "page": 144,
+      "id": "eq-5-18"
+    },
+    "5.19": {
+      "file": "full_book_v7_p144.xhtml",
+      "page": 144,
+      "id": "eq-5-19"
+    },
+    "6.2": {
+      "file": "full_book_v7_p164.xhtml",
+      "page": 164,
+      "id": "eq-6-2"
+    },
+    "6.3": {
+      "file": "full_book_v7_p166.xhtml",
+      "page": 166,
+      "id": "eq-6-3"
+    },
+    "9.1": {
+      "file": "full_book_v7_p217.xhtml",
+      "page": 217,
+      "id": "eq-9-1"
+    },
+    "9.2": {
+      "file": "full_book_v7_p217.xhtml",
+      "page": 217,
+      "id": "eq-9-2"
+    },
+    "11.1": {
+      "file": "full_book_v7_p252.xhtml",
+      "page": 252,
+      "id": "eq-11-1"
+    },
+    "11.2": {
+      "file": "full_book_v7_p252.xhtml",
+      "page": 252,
+      "id": "eq-11-2"
+    },
+    "11.3": {
+      "file": "full_book_v7_p252.xhtml",
+      "page": 252,
+      "id": "eq-11-3"
+    },
+    "11.5": {
+      "file": "full_book_v7_p254.xhtml",
+      "page": 254,
+      "id": "eq-11-5"
+    },
+    "11.6": {
+      "file": "full_book_v7_p256.xhtml",
+      "page": 256,
+      "id": "eq-11-6"
+    },
+    "13.4": {
+      "file": "full_book_v7_p293.xhtml",
+      "page": 293,
+      "id": "eq-13-4"
+    },
+    "13.5": {
+      "file": "full_book_v7_p296.xhtml",
+      "page": 296,
+      "id": "eq-13-5"
+    },
+    "13.6": {
+      "file": "full_book_v7_p296.xhtml",
+      "page": 296,
+      "id": "eq-13-6"
+    },
+    "13.7": {
+      "file": "full_book_v7_p296.xhtml",
+      "page": 296,
+      "id": "eq-13-7"
+    },
+    "13.8": {
+      "file": "full_book_v7_p296.xhtml",
+      "page": 296,
+      "id": "eq-13-8"
+    },
+    "13.9": {
+      "file": "full_book_v7_p296.xhtml",
+      "page": 296,
+      "id": "eq-13-9"
+    },
+    "13.10": {
+      "file": "full_book_v7_p296.xhtml",
+      "page": 296,
+      "id": "eq-13-10"
+    },
+    "13.11": {
+      "file": "full_book_v7_p300.xhtml",
+      "page": 300,
+      "id": "eq-13-11"
+    },
+    "13.12": {
+      "file": "full_book_v7_p300.xhtml",
+      "page": 300,
+      "id": "eq-13-12"
+    },
+    "13.13": {
+      "file": "full_book_v7_p300.xhtml",
+      "page": 300,
+      "id": "eq-13-13"
+    },
+    "13.15": {
+      "file": "full_book_v7_p302.xhtml",
+      "page": 302,
+      "id": "eq-13-15"
+    },
+    "13.16": {
+      "file": "full_book_v7_p302.xhtml",
+      "page": 302,
+      "id": "eq-13-16"
+    },
+    "13.17": {
+      "file": "full_book_v7_p302.xhtml",
+      "page": 302,
+      "id": "eq-13-17"
+    },
+    "13.18": {
+      "file": "full_book_v7_p302.xhtml",
+      "page": 302,
+      "id": "eq-13-18"
+    },
+    "14.1": {
+      "file": "full_book_v7_p318.xhtml",
+      "page": 318,
+      "id": "eq-14-1"
+    },
+    "14.2": {
+      "file": "full_book_v7_p318.xhtml",
+      "page": 318,
+      "id": "eq-14-2"
+    },
+    "14.4": {
+      "file": "full_book_v7_p322.xhtml",
+      "page": 322,
+      "id": "eq-14-4"
+    },
+    "14.7": {
+      "file": "full_book_v7_p323.xhtml",
+      "page": 323,
+      "id": "eq-14-7"
+    },
+    "14.9": {
+      "file": "full_book_v7_p324.xhtml",
+      "page": 324,
+      "id": "eq-14-9"
+    },
+    "14.10": {
+      "file": "full_book_v7_p324.xhtml",
+      "page": 324,
+      "id": "eq-14-10"
+    },
+    "14.11": {
+      "file": "full_book_v7_p327.xhtml",
+      "page": 327,
+      "id": "eq-14-11"
+    },
+    "14.12": {
+      "file": "full_book_v7_p327.xhtml",
+      "page": 327,
+      "id": "eq-14-12"
+    },
+    "14.13": {
+      "file": "full_book_v7_p327.xhtml",
+      "page": 327,
+      "id": "eq-14-13"
+    },
+    "14.14": {
+      "file": "full_book_v7_p327.xhtml",
+      "page": 327,
+      "id": "eq-14-14"
+    },
+    "14.15": {
+      "file": "full_book_v7_p328.xhtml",
+      "page": 328,
+      "id": "eq-14-15"
+    },
+    "14.16": {
+      "file": "full_book_v7_p328.xhtml",
+      "page": 328,
+      "id": "eq-14-16"
+    },
+    "14.17": {
+      "file": "full_book_v7_p328.xhtml",
+      "page": 328,
+      "id": "eq-14-17"
+    },
+    "14.18": {
+      "file": "full_book_v7_p329.xhtml",
+      "page": 329,
+      "id": "eq-14-18"
+    },
+    "14.19": {
+      "file": "full_book_v7_p329.xhtml",
+      "page": 329,
+      "id": "eq-14-19"
+    },
+    "14.20": {
+      "file": "full_book_v7_p330.xhtml",
+      "page": 330,
+      "id": "eq-14-20"
+    },
+    "14A.1": {
+      "file": "full_book_v7_p336.xhtml",
+      "page": 336,
+      "id": "eq-14A-1"
+    },
+    "14A.2": {
+      "file": "full_book_v7_p336.xhtml",
+      "page": 336,
+      "id": "eq-14A-2"
+    },
+    "14A.3": {
+      "file": "full_book_v7_p336.xhtml",
+      "page": 336,
+      "id": "eq-14A-3"
+    },
+    "14A.4": {
+      "file": "full_book_v7_p336.xhtml",
+      "page": 336,
+      "id": "eq-14A-4"
+    },
+    "14A.5": {
+      "file": "full_book_v7_p336.xhtml",
+      "page": 336,
+      "id": "eq-14A-5"
+    },
+    "14A.7": {
+      "file": "full_book_v7_p336.xhtml",
+      "page": 336,
+      "id": "eq-14A-7"
+    },
+    "14A.6": {
+      "file": "full_book_v7_p336.xhtml",
+      "page": 336,
+      "id": "eq-14A-6"
+    },
+    "14A.8": {
+      "file": "full_book_v7_p337.xhtml",
+      "page": 337,
+      "id": "eq-14A-8"
+    },
+    "14A.9": {
+      "file": "full_book_v7_p337.xhtml",
+      "page": 337,
+      "id": "eq-14A-9"
+    },
+    "14A.10": {
+      "file": "full_book_v7_p337.xhtml",
+      "page": 337,
+      "id": "eq-14A-10"
+    },
+    "14A.11": {
+      "file": "full_book_v7_p337.xhtml",
+      "page": 337,
+      "id": "eq-14A-11"
+    },
+    "15.1": {
+      "file": "full_book_v7_p339.xhtml",
+      "page": 339,
+      "id": "eq-15-1"
+    },
+    "15.2": {
+      "file": "full_book_v7_p339.xhtml",
+      "page": 339,
+      "id": "eq-15-2"
+    },
+    "15.3": {
+      "file": "full_book_v7_p339.xhtml",
+      "page": 339,
+      "id": "eq-15-3"
+    },
+    "15.4": {
+      "file": "full_book_v7_p340.xhtml",
+      "page": 340,
+      "id": "eq-15-4"
+    },
+    "15.5": {
+      "file": "full_book_v7_p340.xhtml",
+      "page": 340,
+      "id": "eq-15-5"
+    },
+    "15.6": {
+      "file": "full_book_v7_p341.xhtml",
+      "page": 341,
+      "id": "eq-15-6"
+    },
+    "15.7": {
+      "file": "full_book_v7_p341.xhtml",
+      "page": 341,
+      "id": "eq-15-7"
+    },
+    "15.8": {
+      "file": "full_book_v7_p348.xhtml",
+      "page": 348,
+      "id": "eq-15-8"
+    },
+    "15.9": {
+      "file": "full_book_v7_p348.xhtml",
+      "page": 348,
+      "id": "eq-15-9"
+    },
+    "15.10": {
+      "file": "full_book_v7_p348.xhtml",
+      "page": 348,
+      "id": "eq-15-10"
+    },
+    "15.11": {
+      "file": "full_book_v7_p348.xhtml",
+      "page": 348,
+      "id": "eq-15-11"
+    },
+    "15.12": {
+      "file": "full_book_v7_p349.xhtml",
+      "page": 349,
+      "id": "eq-15-12"
+    },
+    "15.13": {
+      "file": "full_book_v7_p349.xhtml",
+      "page": 349,
+      "id": "eq-15-13"
+    },
+    "15.14": {
+      "file": "full_book_v7_p349.xhtml",
+      "page": 349,
+      "id": "eq-15-14"
+    },
+    "15.15": {
+      "file": "full_book_v7_p349.xhtml",
+      "page": 349,
+      "id": "eq-15-15"
+    },
+    "15.16": {
+      "file": "full_book_v7_p349.xhtml",
+      "page": 349,
+      "id": "eq-15-16"
+    },
+    "15.17": {
+      "file": "full_book_v7_p350.xhtml",
+      "page": 350,
+      "id": "eq-15-17"
+    },
+    "15.18": {
+      "file": "full_book_v7_p352.xhtml",
+      "page": 352,
+      "id": "eq-15-18"
+    },
+    "15.19": {
+      "file": "full_book_v7_p352.xhtml",
+      "page": 352,
+      "id": "eq-15-19"
+    },
+    "15.20": {
+      "file": "full_book_v7_p352.xhtml",
+      "page": 352,
+      "id": "eq-15-20"
+    },
+    "15.21": {
+      "file": "full_book_v7_p352.xhtml",
+      "page": 352,
+      "id": "eq-15-21"
+    },
+    "15.22": {
+      "file": "full_book_v7_p353.xhtml",
+      "page": 353,
+      "id": "eq-15-22"
+    },
+    "15.23": {
+      "file": "full_book_v7_p362.xhtml",
+      "page": 362,
+      "id": "eq-15-23"
+    },
+    "15.24": {
+      "file": "full_book_v7_p362.xhtml",
+      "page": 362,
+      "id": "eq-15-24"
+    },
+    "15.25": {
+      "file": "full_book_v7_p362.xhtml",
+      "page": 362,
+      "id": "eq-15-25"
+    },
+    "15A.1": {
+      "file": "full_book_v7_p369.xhtml",
+      "page": 369,
+      "id": "eq-15A-1"
+    },
+    "15A.2": {
+      "file": "full_book_v7_p369.xhtml",
+      "page": 369,
+      "id": "eq-15A-2"
+    },
+    "15A.3": {
+      "file": "full_book_v7_p369.xhtml",
+      "page": 369,
+      "id": "eq-15A-3"
+    },
+    "15A.4": {
+      "file": "full_book_v7_p369.xhtml",
+      "page": 369,
+      "id": "eq-15A-4"
+    },
+    "15A.5": {
+      "file": "full_book_v7_p369.xhtml",
+      "page": 369,
+      "id": "eq-15A-5"
+    },
+    "15A.6": {
+      "file": "full_book_v7_p370.xhtml",
+      "page": 370,
+      "id": "eq-15A-6"
+    },
+    "15A.7": {
+      "file": "full_book_v7_p370.xhtml",
+      "page": 370,
+      "id": "eq-15A-7"
+    },
+    "17.3": {
+      "file": "full_book_v7_p390.xhtml",
+      "page": 390,
+      "id": "eq-17-3"
+    },
+    "17.4": {
+      "file": "full_book_v7_p390.xhtml",
+      "page": 390,
+      "id": "eq-17-4"
+    },
+    "17.5": {
+      "file": "full_book_v7_p390.xhtml",
+      "page": 390,
+      "id": "eq-17-5"
+    },
+    "17.6": {
+      "file": "full_book_v7_p391.xhtml",
+      "page": 391,
+      "id": "eq-17-6"
+    },
+    "17.7": {
+      "file": "full_book_v7_p391.xhtml",
+      "page": 391,
+      "id": "eq-17-7"
+    },
+    "17.9": {
+      "file": "full_book_v7_p392.xhtml",
+      "page": 392,
+      "id": "eq-17-9"
+    },
+    "17.10": {
+      "file": "full_book_v7_p393.xhtml",
+      "page": 393,
+      "id": "eq-17-10"
+    },
+    "17.12": {
+      "file": "full_book_v7_p394.xhtml",
+      "page": 394,
+      "id": "eq-17-12"
+    },
+    "17.13": {
+      "file": "full_book_v7_p395.xhtml",
+      "page": 395,
+      "id": "eq-17-13"
+    },
+    "17.14": {
+      "file": "full_book_v7_p395.xhtml",
+      "page": 395,
+      "id": "eq-17-14"
+    },
+    "17.15": {
+      "file": "full_book_v7_p395.xhtml",
+      "page": 395,
+      "id": "eq-17-15"
+    },
+    "17.16": {
+      "file": "full_book_v7_p396.xhtml",
+      "page": 396,
+      "id": "eq-17-16"
+    },
+    "18.1": {
+      "file": "full_book_v7_p405.xhtml",
+      "page": 405,
+      "id": "eq-18-1"
+    },
+    "18.2": {
+      "file": "full_book_v7_p406.xhtml",
+      "page": 406,
+      "id": "eq-18-2"
+    },
+    "18.3": {
+      "file": "full_book_v7_p406.xhtml",
+      "page": 406,
+      "id": "eq-18-3"
+    },
+    "18.4": {
+      "file": "full_book_v7_p406.xhtml",
+      "page": 406,
+      "id": "eq-18-4"
+    },
+    "18.5": {
+      "file": "full_book_v7_p407.xhtml",
+      "page": 407,
+      "id": "eq-18-5"
+    },
+    "18.6": {
+      "file": "full_book_v7_p408.xhtml",
+      "page": 408,
+      "id": "eq-18-6"
+    },
+    "18.7": {
+      "file": "full_book_v7_p408.xhtml",
+      "page": 408,
+      "id": "eq-18-7"
+    },
+    "18.8": {
+      "file": "full_book_v7_p408.xhtml",
+      "page": 408,
+      "id": "eq-18-8"
+    },
+    "18.10": {
+      "file": "full_book_v7_p411.xhtml",
+      "page": 411,
+      "id": "eq-18-10"
+    },
+    "19.3": {
+      "file": "full_book_v7_p430.xhtml",
+      "page": 430,
+      "id": "eq-19-3"
+    },
+    "19.4": {
+      "file": "full_book_v7_p433.xhtml",
+      "page": 433,
+      "id": "eq-19-4"
+    },
+    "19.5": {
+      "file": "full_book_v7_p440.xhtml",
+      "page": 440,
+      "id": "eq-19-5"
+    },
+    "19.6": {
+      "file": "full_book_v7_p440.xhtml",
+      "page": 440,
+      "id": "eq-19-6"
+    },
+    "19.7": {
+      "file": "full_book_v7_p440.xhtml",
+      "page": 440,
+      "id": "eq-19-7"
+    },
+    "19.8": {
+      "file": "full_book_v7_p441.xhtml",
+      "page": 441,
+      "id": "eq-19-8"
+    },
+    "19A.1": {
+      "file": "full_book_v7_p450.xhtml",
+      "page": 450,
+      "id": "eq-19A-1"
+    },
+    "20.1": {
+      "file": "full_book_v7_p451.xhtml",
+      "page": 451,
+      "id": "eq-20-1"
+    },
+    "20.2": {
+      "file": "full_book_v7_p452.xhtml",
+      "page": 452,
+      "id": "eq-20-2"
+    },
+    "20A.1": {
+      "file": "full_book_v7_p467.xhtml",
+      "page": 467,
+      "id": "eq-20A-1"
+    },
+    "20A.2": {
+      "file": "full_book_v7_p468.xhtml",
+      "page": 468,
+      "id": "eq-20A-2"
+    },
+    "21.1": {
+      "file": "full_book_v7_p471.xhtml",
+      "page": 471,
+      "id": "eq-21-1"
+    },
+    "21.2": {
+      "file": "full_book_v7_p472.xhtml",
+      "page": 472,
+      "id": "eq-21-2"
+    },
+    "21.3": {
+      "file": "full_book_v7_p472.xhtml",
+      "page": 472,
+      "id": "eq-21-3"
+    },
+    "21.4": {
+      "file": "full_book_v7_p472.xhtml",
+      "page": 472,
+      "id": "eq-21-4"
+    },
+    "21.5": {
+      "file": "full_book_v7_p472.xhtml",
+      "page": 472,
+      "id": "eq-21-5"
+    },
+    "21.6": {
+      "file": "full_book_v7_p472.xhtml",
+      "page": 472,
+      "id": "eq-21-6"
+    },
+    "21.7": {
+      "file": "full_book_v7_p472.xhtml",
+      "page": 472,
+      "id": "eq-21-7"
+    },
+    "21.8": {
+      "file": "full_book_v7_p476.xhtml",
+      "page": 476,
+      "id": "eq-21-8"
+    },
+    "21.9": {
+      "file": "full_book_v7_p477.xhtml",
+      "page": 477,
+      "id": "eq-21-9"
+    },
+    "21.10": {
+      "file": "full_book_v7_p477.xhtml",
+      "page": 477,
+      "id": "eq-21-10"
+    },
+    "21.11": {
+      "file": "full_book_v7_p488.xhtml",
+      "page": 488,
+      "id": "eq-21-11"
+    },
+    "21.12": {
+      "file": "full_book_v7_p488.xhtml",
+      "page": 488,
+      "id": "eq-21-12"
+    },
+    "21.13": {
+      "file": "full_book_v7_p490.xhtml",
+      "page": 490,
+      "id": "eq-21-13"
+    },
+    "21.14": {
+      "file": "full_book_v7_p490.xhtml",
+      "page": 490,
+      "id": "eq-21-14"
+    },
+    "21.15": {
+      "file": "full_book_v7_p491.xhtml",
+      "page": 491,
+      "id": "eq-21-15"
+    },
+    "21.16": {
+      "file": "full_book_v7_p491.xhtml",
+      "page": 491,
+      "id": "eq-21-16"
+    },
+    "21.17": {
+      "file": "full_book_v7_p491.xhtml",
+      "page": 491,
+      "id": "eq-21-17"
+    },
+    "21.18": {
+      "file": "full_book_v7_p492.xhtml",
+      "page": 492,
+      "id": "eq-21-18"
+    },
+    "21.19": {
+      "file": "full_book_v7_p493.xhtml",
+      "page": 493,
+      "id": "eq-21-19"
+    },
+    "21.20": {
+      "file": "full_book_v7_p496.xhtml",
+      "page": 496,
+      "id": "eq-21-20"
+    },
+    "21.21": {
+      "file": "full_book_v7_p498.xhtml",
+      "page": 498,
+      "id": "eq-21-21"
+    },
+    "21.22": {
+      "file": "full_book_v7_p499.xhtml",
+      "page": 499,
+      "id": "eq-21-22"
+    },
+    "21.23": {
+      "file": "full_book_v7_p499.xhtml",
+      "page": 499,
+      "id": "eq-21-23"
+    },
+    "21.24": {
+      "file": "full_book_v7_p500.xhtml",
+      "page": 500,
+      "id": "eq-21-24"
+    },
+    "21.25": {
+      "file": "full_book_v7_p500.xhtml",
+      "page": 500,
+      "id": "eq-21-25"
+    },
+    "21.26": {
+      "file": "full_book_v7_p500.xhtml",
+      "page": 500,
+      "id": "eq-21-26"
+    },
+    "21.27": {
+      "file": "full_book_v7_p501.xhtml",
+      "page": 501,
+      "id": "eq-21-27"
+    },
+    "21.28": {
+      "file": "full_book_v7_p501.xhtml",
+      "page": 501,
+      "id": "eq-21-28"
+    },
+    "21.29": {
+      "file": "full_book_v7_p501.xhtml",
+      "page": 501,
+      "id": "eq-21-29"
+    },
+    "21.30": {
+      "file": "full_book_v7_p501.xhtml",
+      "page": 501,
+      "id": "eq-21-30"
+    },
+    "21.31": {
+      "file": "full_book_v7_p501.xhtml",
+      "page": 501,
+      "id": "eq-21-31"
+    },
+    "21.33": {
+      "file": "full_book_v7_p501.xhtml",
+      "page": 501,
+      "id": "eq-21-33"
+    },
+    "21.32": {
+      "file": "full_book_v7_p501.xhtml",
+      "page": 501,
+      "id": "eq-21-32"
+    },
+    "21.34": {
+      "file": "full_book_v7_p502.xhtml",
+      "page": 502,
+      "id": "eq-21-34"
+    },
+    "21.35": {
+      "file": "full_book_v7_p504.xhtml",
+      "page": 504,
+      "id": "eq-21-35"
+    },
+    "21.36": {
+      "file": "full_book_v7_p505.xhtml",
+      "page": 505,
+      "id": "eq-21-36"
+    },
+    "21.37": {
+      "file": "full_book_v7_p506.xhtml",
+      "page": 506,
+      "id": "eq-21-37"
+    },
+    "21.38": {
+      "file": "full_book_v7_p506.xhtml",
+      "page": 506,
+      "id": "eq-21-38"
+    },
+    "21.39": {
+      "file": "full_book_v7_p506.xhtml",
+      "page": 506,
+      "id": "eq-21-39"
+    },
+    "22.2": {
+      "file": "full_book_v7_p524.xhtml",
+      "page": 524,
+      "id": "eq-22-2"
+    },
+    "22.3": {
+      "file": "full_book_v7_p525.xhtml",
+      "page": 525,
+      "id": "eq-22-3"
+    },
+    "22.5": {
+      "file": "full_book_v7_p529.xhtml",
+      "page": 529,
+      "id": "eq-22-5"
+    },
+    "22.6": {
+      "file": "full_book_v7_p529.xhtml",
+      "page": 529,
+      "id": "eq-22-6"
+    },
+    "22.7": {
+      "file": "full_book_v7_p532.xhtml",
+      "page": 532,
+      "id": "eq-22-7"
+    },
+    "22.8": {
+      "file": "full_book_v7_p532.xhtml",
+      "page": 532,
+      "id": "eq-22-8"
+    },
+    "23.2": {
+      "file": "full_book_v7_p543.xhtml",
+      "page": 543,
+      "id": "eq-23-2"
+    },
+    "23.3": {
+      "file": "full_book_v7_p543.xhtml",
+      "page": 543,
+      "id": "eq-23-3"
+    },
+    "23.4": {
+      "file": "full_book_v7_p543.xhtml",
+      "page": 543,
+      "id": "eq-23-4"
+    },
+    "23.5": {
+      "file": "full_book_v7_p544.xhtml",
+      "page": 544,
+      "id": "eq-23-5"
+    },
+    "23.6": {
+      "file": "full_book_v7_p544.xhtml",
+      "page": 544,
+      "id": "eq-23-6"
+    },
+    "23.7": {
+      "file": "full_book_v7_p544.xhtml",
+      "page": 544,
+      "id": "eq-23-7"
+    },
+    "23.12": {
+      "file": "full_book_v7_p549.xhtml",
+      "page": 549,
+      "id": "eq-23-12"
+    },
+    "24.5": {
+      "file": "full_book_v7_p576.xhtml",
+      "page": 576,
+      "id": "eq-24-5"
+    },
+    "24.6": {
+      "file": "full_book_v7_p576.xhtml",
+      "page": 576,
+      "id": "eq-24-6"
+    },
+    "24.7": {
+      "file": "full_book_v7_p580.xhtml",
+      "page": 580,
+      "id": "eq-24-7"
+    },
+    "24.8": {
+      "file": "full_book_v7_p580.xhtml",
+      "page": 580,
+      "id": "eq-24-8"
+    },
+    "24.9": {
+      "file": "full_book_v7_p580.xhtml",
+      "page": 580,
+      "id": "eq-24-9"
+    },
+    "24.10": {
+      "file": "full_book_v7_p581.xhtml",
+      "page": 581,
+      "id": "eq-24-10"
+    },
+    "25.2": {
+      "file": "full_book_v7_p602.xhtml",
+      "page": 602,
+      "id": "eq-25-2"
+    },
+    "25.3": {
+      "file": "full_book_v7_p602.xhtml",
+      "page": 602,
+      "id": "eq-25-3"
+    },
+    "25.4": {
+      "file": "full_book_v7_p602.xhtml",
+      "page": 602,
+      "id": "eq-25-4"
+    },
+    "25.5": {
+      "file": "full_book_v7_p602.xhtml",
+      "page": 602,
+      "id": "eq-25-5"
+    },
+    "25.6": {
+      "file": "full_book_v7_p602.xhtml",
+      "page": 602,
+      "id": "eq-25-6"
+    },
+    "25.7": {
+      "file": "full_book_v7_p602.xhtml",
+      "page": 602,
+      "id": "eq-25-7"
+    },
+    "25.8": {
+      "file": "full_book_v7_p603.xhtml",
+      "page": 603,
+      "id": "eq-25-8"
+    },
+    "25.9": {
+      "file": "full_book_v7_p603.xhtml",
+      "page": 603,
+      "id": "eq-25-9"
+    },
+    "25.10": {
+      "file": "full_book_v7_p603.xhtml",
+      "page": 603,
+      "id": "eq-25-10"
+    },
+    "25.12": {
+      "file": "full_book_v7_p603.xhtml",
+      "page": 603,
+      "id": "eq-25-12"
+    },
+    "26.1": {
+      "file": "full_book_v7_p617.xhtml",
+      "page": 617,
+      "id": "eq-26-1"
+    },
+    "26.2": {
+      "file": "full_book_v7_p617.xhtml",
+      "page": 617,
+      "id": "eq-26-2"
+    },
+    "26.3": {
+      "file": "full_book_v7_p626.xhtml",
+      "page": 626,
+      "id": "eq-26-3"
+    },
+    "26.4": {
+      "file": "full_book_v7_p626.xhtml",
+      "page": 626,
+      "id": "eq-26-4"
+    },
+    "26.5": {
+      "file": "full_book_v7_p628.xhtml",
+      "page": 628,
+      "id": "eq-26-5"
+    },
+    "26.6": {
+      "file": "full_book_v7_p630.xhtml",
+      "page": 630,
+      "id": "eq-26-6"
+    },
+    "26.7": {
+      "file": "full_book_v7_p630.xhtml",
+      "page": 630,
+      "id": "eq-26-7"
+    },
+    "26.8": {
+      "file": "full_book_v7_p630.xhtml",
+      "page": 630,
+      "id": "eq-26-8"
+    },
+    "26.9": {
+      "file": "full_book_v7_p631.xhtml",
+      "page": 631,
+      "id": "eq-26-9"
+    },
+    "26.10": {
+      "file": "full_book_v7_p631.xhtml",
+      "page": 631,
+      "id": "eq-26-10"
+    },
+    "27.1": {
+      "file": "full_book_v7_p646.xhtml",
+      "page": 646,
+      "id": "eq-27-1"
+    },
+    "27.2": {
+      "file": "full_book_v7_p648.xhtml",
+      "page": 648,
+      "id": "eq-27-2"
+    },
+    "27.3": {
+      "file": "full_book_v7_p648.xhtml",
+      "page": 648,
+      "id": "eq-27-3"
+    },
+    "27.4": {
+      "file": "full_book_v7_p650.xhtml",
+      "page": 650,
+      "id": "eq-27-4"
+    },
+    "28.1": {
+      "file": "full_book_v7_p671.xhtml",
+      "page": 671,
+      "id": "eq-28-1"
+    },
+    "28.2": {
+      "file": "full_book_v7_p671.xhtml",
+      "page": 671,
+      "id": "eq-28-2"
+    },
+    "28.3": {
+      "file": "full_book_v7_p671.xhtml",
+      "page": 671,
+      "id": "eq-28-3"
+    },
+    "28.4": {
+      "file": "full_book_v7_p671.xhtml",
+      "page": 671,
+      "id": "eq-28-4"
+    },
+    "28.6": {
+      "file": "full_book_v7_p672.xhtml",
+      "page": 672,
+      "id": "eq-28-6"
+    },
+    "28.7": {
+      "file": "full_book_v7_p672.xhtml",
+      "page": 672,
+      "id": "eq-28-7"
+    },
+    "28.8": {
+      "file": "full_book_v7_p672.xhtml",
+      "page": 672,
+      "id": "eq-28-8"
+    },
+    "28.9": {
+      "file": "full_book_v7_p672.xhtml",
+      "page": 672,
+      "id": "eq-28-9"
+    },
+    "28.16": {
+      "file": "full_book_v7_p677.xhtml",
+      "page": 677,
+      "id": "eq-28-16"
+    },
+    "28.17": {
+      "file": "full_book_v7_p677.xhtml",
+      "page": 677,
+      "id": "eq-28-17"
+    },
+    "28.18": {
+      "file": "full_book_v7_p677.xhtml",
+      "page": 677,
+      "id": "eq-28-18"
+    },
+    "28.19": {
+      "file": "full_book_v7_p677.xhtml",
+      "page": 677,
+      "id": "eq-28-19"
+    },
+    "28.20": {
+      "file": "full_book_v7_p677.xhtml",
+      "page": 677,
+      "id": "eq-28-20"
+    },
+    "28.21": {
+      "file": "full_book_v7_p678.xhtml",
+      "page": 678,
+      "id": "eq-28-21"
+    },
+    "28.22": {
+      "file": "full_book_v7_p679.xhtml",
+      "page": 679,
+      "id": "eq-28-22"
+    },
+    "28.23": {
+      "file": "full_book_v7_p679.xhtml",
+      "page": 679,
+      "id": "eq-28-23"
+    },
+    "28.24": {
+      "file": "full_book_v7_p679.xhtml",
+      "page": 679,
+      "id": "eq-28-24"
+    },
+    "28.33": {
+      "file": "full_book_v7_p683.xhtml",
+      "page": 683,
+      "id": "eq-28-33"
+    },
+    "28.34": {
+      "file": "full_book_v7_p683.xhtml",
+      "page": 683,
+      "id": "eq-28-34"
+    },
+    "28.35": {
+      "file": "full_book_v7_p683.xhtml",
+      "page": 683,
+      "id": "eq-28-35"
+    },
+    "29.3": {
+      "file": "full_book_v7_p690.xhtml",
+      "page": 690,
+      "id": "eq-29-3"
+    },
+    "29.4": {
+      "file": "full_book_v7_p692.xhtml",
+      "page": 692,
+      "id": "eq-29-4"
+    },
+    "29.1": {
+      "file": "full_book_v7_p693.xhtml",
+      "page": 693,
+      "id": "eq-29-1"
+    },
+    "29.6": {
+      "file": "full_book_v7_p694.xhtml",
+      "page": 694,
+      "id": "eq-29-6"
+    },
+    "29.7": {
+      "file": "full_book_v7_p694.xhtml",
+      "page": 694,
+      "id": "eq-29-7"
+    },
+    "29.9": {
+      "file": "full_book_v7_p696.xhtml",
+      "page": 696,
+      "id": "eq-29-9"
+    },
+    "29.10": {
+      "file": "full_book_v7_p700.xhtml",
+      "page": 700,
+      "id": "eq-29-10"
+    },
+    "30.2": {
+      "file": "full_book_v7_p710.xhtml",
+      "page": 710,
+      "id": "eq-30-2"
+    },
+    "30.4": {
+      "file": "full_book_v7_p712.xhtml",
+      "page": 712,
+      "id": "eq-30-4"
+    },
+    "30.5": {
+      "file": "full_book_v7_p712.xhtml",
+      "page": 712,
+      "id": "eq-30-5"
+    },
+    "30.6": {
+      "file": "full_book_v7_p712.xhtml",
+      "page": 712,
+      "id": "eq-30-6"
+    },
+    "31.11": {
+      "file": "full_book_v7_p725.xhtml",
+      "page": 725,
+      "id": "eq-31-11"
+    },
+    "31.12": {
+      "file": "full_book_v7_p725.xhtml",
+      "page": 725,
+      "id": "eq-31-12"
+    },
+    "32.4": {
+      "file": "full_book_v7_p734.xhtml",
+      "page": 734,
+      "id": "eq-32-4"
+    },
+    "32.9": {
+      "file": "full_book_v7_p736.xhtml",
+      "page": 736,
+      "id": "eq-32-9"
+    },
+    "32.13": {
+      "file": "full_book_v7_p745.xhtml",
+      "page": 745,
+      "id": "eq-32-13"
+    },
+    "32.14": {
+      "file": "full_book_v7_p746.xhtml",
+      "page": 746,
+      "id": "eq-32-14"
+    },
+    "32.15": {
+      "file": "full_book_v7_p748.xhtml",
+      "page": 748,
+      "id": "eq-32-15"
+    },
+    "32.16": {
+      "file": "full_book_v7_p748.xhtml",
+      "page": 748,
+      "id": "eq-32-16"
+    },
+    "32.17": {
+      "file": "full_book_v7_p748.xhtml",
+      "page": 748,
+      "id": "eq-32-17"
+    },
+    "33.1": {
+      "file": "full_book_v7_p756.xhtml",
+      "page": 756,
+      "id": "eq-33-1"
+    },
+    "33.2": {
+      "file": "full_book_v7_p756.xhtml",
+      "page": 756,
+      "id": "eq-33-2"
+    },
+    "33.3": {
+      "file": "full_book_v7_p756.xhtml",
+      "page": 756,
+      "id": "eq-33-3"
+    },
+    "33.4": {
+      "file": "full_book_v7_p757.xhtml",
+      "page": 757,
+      "id": "eq-33-4"
+    },
+    "33.5": {
+      "file": "full_book_v7_p757.xhtml",
+      "page": 757,
+      "id": "eq-33-5"
+    },
+    "33.6": {
+      "file": "full_book_v7_p758.xhtml",
+      "page": 758,
+      "id": "eq-33-6"
+    },
+    "33.7": {
+      "file": "full_book_v7_p759.xhtml",
+      "page": 759,
+      "id": "eq-33-7"
+    },
+    "33.8": {
+      "file": "full_book_v7_p759.xhtml",
+      "page": 759,
+      "id": "eq-33-8"
+    },
+    "33.9": {
+      "file": "full_book_v7_p760.xhtml",
+      "page": 760,
+      "id": "eq-33-9"
+    },
+    "33.10": {
+      "file": "full_book_v7_p760.xhtml",
+      "page": 760,
+      "id": "eq-33-10"
+    },
+    "33.11": {
+      "file": "full_book_v7_p760.xhtml",
+      "page": 760,
+      "id": "eq-33-11"
+    },
+    "33.12": {
+      "file": "full_book_v7_p761.xhtml",
+      "page": 761,
+      "id": "eq-33-12"
+    },
+    "33.13": {
+      "file": "full_book_v7_p761.xhtml",
+      "page": 761,
+      "id": "eq-33-13"
+    },
+    "33.14": {
+      "file": "full_book_v7_p761.xhtml",
+      "page": 761,
+      "id": "eq-33-14"
+    },
+    "33.15": {
+      "file": "full_book_v7_p761.xhtml",
+      "page": 761,
+      "id": "eq-33-15"
+    },
+    "33.16": {
+      "file": "full_book_v7_p762.xhtml",
+      "page": 762,
+      "id": "eq-33-16"
+    },
+    "33.17": {
+      "file": "full_book_v7_p765.xhtml",
+      "page": 765,
+      "id": "eq-33-17"
+    },
+    "33.18": {
+      "file": "full_book_v7_p765.xhtml",
+      "page": 765,
+      "id": "eq-33-18"
+    },
+    "33.19": {
+      "file": "full_book_v7_p765.xhtml",
+      "page": 765,
+      "id": "eq-33-19"
+    },
+    "33.20": {
+      "file": "full_book_v7_p766.xhtml",
+      "page": 766,
+      "id": "eq-33-20"
+    },
+    "33.21": {
+      "file": "full_book_v7_p767.xhtml",
+      "page": 767,
+      "id": "eq-33-21"
+    },
+    "35.1": {
+      "file": "full_book_v7_p789.xhtml",
+      "page": 789,
+      "id": "eq-35-1"
+    },
+    "35.2": {
+      "file": "full_book_v7_p790.xhtml",
+      "page": 790,
+      "id": "eq-35-2"
+    },
+    "35.3": {
+      "file": "full_book_v7_p790.xhtml",
+      "page": 790,
+      "id": "eq-35-3"
+    },
+    "36.3": {
+      "file": "full_book_v7_p808.xhtml",
+      "page": 808,
+      "id": "eq-36-3"
+    }
+  },
+  "business_snapshots": {
+    "1.1": {
+      "file": "full_book_v7_p26.xhtml",
+      "page": 26,
+      "id": "bs-1-1"
+    },
+    "1.2": {
+      "file": "full_book_v7_p27.xhtml",
+      "page": 27,
+      "id": "bs-1-2"
+    },
+    "1.3": {
+      "file": "full_book_v7_p34.xhtml",
+      "page": 34,
+      "id": "bs-1-3"
+    },
+    "1.4": {
+      "file": "full_book_v7_p40.xhtml",
+      "page": 40,
+      "id": "bs-1-4"
+    },
+    "2.1": {
+      "file": "full_book_v7_p47.xhtml",
+      "page": 47,
+      "id": "bs-2-1"
+    },
+    "2.2": {
+      "file": "full_book_v7_p56.xhtml",
+      "page": 56,
+      "id": "bs-2-2"
+    },
+    "3.1": {
+      "file": "full_book_v7_p75.xhtml",
+      "page": 75,
+      "id": "bs-3-1"
+    },
+    "3.2": {
+      "file": "full_book_v7_p91.xhtml",
+      "page": 91,
+      "id": "bs-3-2"
+    },
+    "4.1": {
+      "file": "full_book_v7_p111.xhtml",
+      "page": 111,
+      "id": "bs-4-1"
+    },
+    "4.2": {
+      "file": "full_book_v7_p119.xhtml",
+      "page": 119,
+      "id": "bs-4-2"
+    },
+    "5.1": {
+      "file": "full_book_v7_p129.xhtml",
+      "page": 129,
+      "id": "bs-5-1"
+    },
+    "5.2": {
+      "file": "full_book_v7_p134.xhtml",
+      "page": 134,
+      "id": "bs-5-2"
+    },
+    "5.3": {
+      "file": "full_book_v7_p136.xhtml",
+      "page": 136,
+      "id": "bs-5-3"
+    },
+    "5.4": {
+      "file": "full_book_v7_p137.xhtml",
+      "page": 137,
+      "id": "bs-5-4"
+    },
+    "6.1": {
+      "file": "full_book_v7_p153.xhtml",
+      "page": 153,
+      "id": "bs-6-1"
+    },
+    "6.2": {
+      "file": "full_book_v7_p159.xhtml",
+      "page": 159,
+      "id": "bs-6-2"
+    },
+    "6.3": {
+      "file": "full_book_v7_p167.xhtml",
+      "page": 167,
+      "id": "bs-6-3"
+    },
+    "7.1": {
+      "file": "full_book_v7_p180.xhtml",
+      "page": 180,
+      "id": "bs-7-1"
+    },
+    "7.2": {
+      "file": "full_book_v7_p194.xhtml",
+      "page": 194,
+      "id": "bs-7-2"
+    },
+    "8.1": {
+      "file": "full_book_v7_p212.xhtml",
+      "page": 212,
+      "id": "bs-8-1"
+    },
+    "10.1": {
+      "file": "full_book_v7_p241.xhtml",
+      "page": 241,
+      "id": "bs-10-1"
+    },
+    "11.1": {
+      "file": "full_book_v7_p258.xhtml",
+      "page": 258,
+      "id": "bs-11-1"
+    },
+    "12.1": {
+      "file": "full_book_v7_p277.xhtml",
+      "page": 277,
+      "id": "bs-12-1"
+    },
+    "12.2": {
+      "file": "full_book_v7_p282.xhtml",
+      "page": 282,
+      "id": "bs-12-2"
+    },
+    "15.1": {
+      "file": "full_book_v7_p343.xhtml",
+      "page": 343,
+      "id": "bs-15-1"
+    },
+    "15.2": {
+      "file": "full_book_v7_p346.xhtml",
+      "page": 346,
+      "id": "bs-15-2"
+    },
+    "15.3": {
+      "file": "full_book_v7_p357.xhtml",
+      "page": 357,
+      "id": "bs-15-3"
+    },
+    "17.1": {
+      "file": "full_book_v7_p393.xhtml",
+      "page": 393,
+      "id": "bs-17-1"
+    },
+    "19.1": {
+      "file": "full_book_v7_p438.xhtml",
+      "page": 438,
+      "id": "bs-19-1"
+    },
+    "19.2": {
+      "file": "full_book_v7_p444.xhtml",
+      "page": 444,
+      "id": "bs-19-2"
+    },
+    "20.1": {
+      "file": "full_book_v7_p455.xhtml",
+      "page": 455,
+      "id": "bs-20-1"
+    },
+    "20.2": {
+      "file": "full_book_v7_p458.xhtml",
+      "page": 458,
+      "id": "bs-20-2"
+    },
+    "21.1": {
+      "file": "full_book_v7_p489.xhtml",
+      "page": 489,
+      "id": "bs-21-1"
+    },
+    "21.2": {
+      "file": "full_book_v7_p492.xhtml",
+      "page": 492,
+      "id": "bs-21-2"
+    },
+    "22.1": {
+      "file": "full_book_v7_p515.xhtml",
+      "page": 515,
+      "id": "bs-22-1"
+    },
+    "24.1": {
+      "file": "full_book_v7_p575.xhtml",
+      "page": 575,
+      "id": "bs-24-1"
+    },
+    "25.1": {
+      "file": "full_book_v7_p588.xhtml",
+      "page": 588,
+      "id": "bs-25-1"
+    },
+    "25.2": {
+      "file": "full_book_v7_p590.xhtml",
+      "page": 590,
+      "id": "bs-25-2"
+    },
+    "26.1": {
+      "file": "full_book_v7_p633.xhtml",
+      "page": 633,
+      "id": "bs-26-1"
+    },
+    "29.1": {
+      "file": "full_book_v7_p695.xhtml",
+      "page": 695,
+      "id": "bs-29-1"
+    },
+    "29.2": {
+      "file": "full_book_v7_p700.xhtml",
+      "page": 700,
+      "id": "bs-29-2"
+    },
+    "30.1": {
+      "file": "full_book_v7_p714.xhtml",
+      "page": 714,
+      "id": "bs-30-1"
+    },
+    "33.1": {
+      "file": "full_book_v7_p769.xhtml",
+      "page": 769,
+      "id": "bs-33-1"
+    },
+    "34.1": {
+      "file": "full_book_v7_p774.xhtml",
+      "page": 774,
+      "id": "bs-34-1"
+    },
+    "34.2": {
+      "file": "full_book_v7_p775.xhtml",
+      "page": 775,
+      "id": "bs-34-2"
+    },
+    "34.3": {
+      "file": "full_book_v7_p778.xhtml",
+      "page": 778,
+      "id": "bs-34-3"
+    },
+    "34.4": {
+      "file": "full_book_v7_p782.xhtml",
+      "page": 782,
+      "id": "bs-34-4"
+    },
+    "36.1": {
+      "file": "full_book_v7_p807.xhtml",
+      "page": 807,
+      "id": "bs-36-1"
+    },
+    "37.1": {
+      "file": "full_book_v7_p816.xhtml",
+      "page": 816,
+      "id": "bs-37-1"
+    },
+    "37.2": {
+      "file": "full_book_v7_p817.xhtml",
+      "page": 817,
+      "id": "bs-37-2"
+    }
+  },
+  "figures": {
+    "1.1": {
+      "file": "full_book_v7_p27.xhtml",
+      "page": 27,
+      "id": "fig-full_book_v7-1"
+    },
+    "1.2": {
+      "file": "full_book_v7_p30.xhtml",
+      "page": 30,
+      "id": "fig-p30_fig3"
+    },
+    "1.3": {
+      "file": "full_book_v7_p33.xhtml",
+      "page": 33,
+      "id": "fig-full_book_v7-6"
+    },
+    "1.4": {
+      "file": "full_book_v7_p35.xhtml",
+      "page": 35,
+      "id": "fig-full_book_v7-8"
+    },
+    "1.5": {
+      "file": "full_book_v7_p38.xhtml",
+      "page": 38,
+      "id": "fig-p38_fig11"
+    },
+    "2.1": {
+      "file": "full_book_v7_p51.xhtml",
+      "page": 51,
+      "id": "fig-full_book_v7-12"
+    },
+    "2.2": {
+      "file": "full_book_v7_p57.xhtml",
+      "page": 57,
+      "id": "fig-full_book_v7-15"
+    },
+    "3.3": {
+      "file": "full_book_v7_p81.xhtml",
+      "page": 81,
+      "id": "fig-full_book_v7-22"
+    },
+    "4.2": {
+      "file": "full_book_v7_p116.xhtml",
+      "page": 116,
+      "id": "fig-full_book_v7-35"
+    },
+    "5.1": {
+      "file": "full_book_v7_p138.xhtml",
+      "page": 138,
+      "id": "fig-full_book_v7-41"
+    },
+    "6.1": {
+      "file": "full_book_v7_p159.xhtml",
+      "page": 159,
+      "id": "fig-full_book_v7-47"
+    },
+    "7.2": {
+      "file": "full_book_v7_p176.xhtml",
+      "page": 176,
+      "id": "fig-p176_fig54"
+    },
+    "7.3": {
+      "file": "full_book_v7_p177.xhtml",
+      "page": 177,
+      "id": "fig-full_book_v7-56"
+    },
+    "7.4": {
+      "file": "full_book_v7_p177.xhtml",
+      "page": 177,
+      "id": "fig-full_book_v7-57"
+    },
+    "7.5": {
+      "file": "full_book_v7_p178.xhtml",
+      "page": 178,
+      "id": "fig-p178_fig58"
+    },
+    "7.6": {
+      "file": "full_book_v7_p178.xhtml",
+      "page": 178,
+      "id": "fig-p178_fig59"
+    },
+    "7.9": {
+      "file": "full_book_v7_p186.xhtml",
+      "page": 186,
+      "id": "fig-p186_fig66"
+    },
+    "7.10": {
+      "file": "full_book_v7_p187.xhtml",
+      "page": 187,
+      "id": "fig-full_book_v7-67"
+    },
+    "7.11": {
+      "file": "full_book_v7_p189.xhtml",
+      "page": 189,
+      "id": "fig-full_book_v7-70"
+    },
+    "7.12": {
+      "file": "full_book_v7_p189.xhtml",
+      "page": 189,
+      "id": "fig-full_book_v7-71"
+    },
+    "7.13": {
+      "file": "full_book_v7_p189.xhtml",
+      "page": 189,
+      "id": "fig-full_book_v7-72"
+    },
+    "8.1": {
+      "file": "full_book_v7_p202.xhtml",
+      "page": 202,
+      "id": "fig-full_book_v7-73"
+    },
+    "8.2": {
+      "file": "full_book_v7_p203.xhtml",
+      "page": 203,
+      "id": "fig-full_book_v7-74"
+    },
+    "8.3": {
+      "file": "full_book_v7_p205.xhtml",
+      "page": 205,
+      "id": "fig-full_book_v7-76"
+    },
+    "8.4": {
+      "file": "full_book_v7_p206.xhtml",
+      "page": 206,
+      "id": "fig-full_book_v7-79"
+    },
+    "9.1": {
+      "file": "full_book_v7_p220.xhtml",
+      "page": 220,
+      "id": "fig-full_book_v7-80"
+    },
+    "10.1": {
+      "file": "full_book_v7_p228.xhtml",
+      "page": 228,
+      "id": "fig-full_book_v7-81"
+    },
+    "10.2": {
+      "file": "full_book_v7_p229.xhtml",
+      "page": 229,
+      "id": "fig-full_book_v7-83"
+    },
+    "10.3": {
+      "file": "full_book_v7_p230.xhtml",
+      "page": 230,
+      "id": "fig-full_book_v7-84"
+    },
+    "10.4": {
+      "file": "full_book_v7_p230.xhtml",
+      "page": 230,
+      "id": "fig-full_book_v7-85"
+    },
+    "10.5": {
+      "file": "full_book_v7_p231.xhtml",
+      "page": 231,
+      "id": "fig-full_book_v7-86"
+    },
+    "11.1": {
+      "file": "full_book_v7_p249.xhtml",
+      "page": 249,
+      "id": "fig-full_book_v7-88"
+    },
+    "11.2": {
+      "file": "full_book_v7_p250.xhtml",
+      "page": 250,
+      "id": "fig-full_book_v7-89"
+    },
+    "11.3": {
+      "file": "full_book_v7_p259.xhtml",
+      "page": 259,
+      "id": "fig-full_book_v7-92"
+    },
+    "11.6": {
+      "file": "full_book_v7_p261.xhtml",
+      "page": 261,
+      "id": "fig-full_book_v7-94"
+    },
+    "11.5": {
+      "file": "full_book_v7_p261.xhtml",
+      "page": 261,
+      "id": "fig-full_book_v7-95"
+    },
+    "12.1": {
+      "file": "full_book_v7_p271.xhtml",
+      "page": 271,
+      "id": "fig-full_book_v7-98"
+    },
+    "12.5": {
+      "file": "full_book_v7_p275.xhtml",
+      "page": 275,
+      "id": "fig-full_book_v7-105"
+    },
+    "12.6": {
+      "file": "full_book_v7_p276.xhtml",
+      "page": 276,
+      "id": "fig-full_book_v7-107"
+    },
+    "12.8": {
+      "file": "full_book_v7_p279.xhtml",
+      "page": 279,
+      "id": "fig-full_book_v7-110"
+    },
+    "12.10": {
+      "file": "full_book_v7_p281.xhtml",
+      "page": 281,
+      "id": "fig-full_book_v7-114"
+    },
+    "12.12": {
+      "file": "full_book_v7_p283.xhtml",
+      "page": 283,
+      "id": "fig-full_book_v7-117"
+    },
+    "13.1": {
+      "file": "full_book_v7_p289.xhtml",
+      "page": 289,
+      "id": "fig-full_book_v7-120"
+    },
+    "13.3": {
+      "file": "full_book_v7_p295.xhtml",
+      "page": 295,
+      "id": "fig-full_book_v7-122"
+    },
+    "13.4": {
+      "file": "full_book_v7_p295.xhtml",
+      "page": 295,
+      "id": "fig-full_book_v7-123"
+    },
+    "13.6": {
+      "file": "full_book_v7_p297.xhtml",
+      "page": 297,
+      "id": "fig-full_book_v7-125"
+    },
+    "13.8": {
+      "file": "full_book_v7_p299.xhtml",
+      "page": 299,
+      "id": "fig-full_book_v7-127"
+    },
+    "13.9": {
+      "file": "full_book_v7_p301.xhtml",
+      "page": 301,
+      "id": "fig-full_book_v7-128"
+    },
+    "13.10": {
+      "file": "full_book_v7_p303.xhtml",
+      "page": 303,
+      "id": "fig-full_book_v7-129"
+    },
+    "13.11": {
+      "file": "full_book_v7_p305.xhtml",
+      "page": 305,
+      "id": "fig-full_book_v7-130"
+    },
+    "13.12": {
+      "file": "full_book_v7_p306.xhtml",
+      "page": 306,
+      "id": "fig-full_book_v7-131"
+    },
+    "13.13": {
+      "file": "full_book_v7_p307.xhtml",
+      "page": 307,
+      "id": "fig-full_book_v7-132"
+    },
+    "14.1": {
+      "file": "full_book_v7_p320.xhtml",
+      "page": 320,
+      "id": "fig-full_book_v7-134"
+    },
+    "14.2": {
+      "file": "full_book_v7_p321.xhtml",
+      "page": 321,
+      "id": "fig-full_book_v7-135"
+    },
+    "14.3": {
+      "file": "full_book_v7_p331.xhtml",
+      "page": 331,
+      "id": "fig-full_book_v7-138"
+    },
+    "15.1": {
+      "file": "full_book_v7_p340.xhtml",
+      "page": 340,
+      "id": "fig-p340_fig139"
+    },
+    "15.2": {
+      "file": "full_book_v7_p347.xhtml",
+      "page": 347,
+      "id": "fig-full_book_v7-143"
+    },
+    "15.3": {
+      "file": "full_book_v7_p353.xhtml",
+      "page": 353,
+      "id": "fig-full_book_v7-144"
+    },
+    "15.4": {
+      "file": "full_book_v7_p359.xhtml",
+      "page": 359,
+      "id": "fig-full_book_v7-145"
+    },
+    "16.1": {
+      "file": "full_book_v7_p377.xhtml",
+      "page": 377,
+      "id": "fig-full_book_v7-146"
+    },
+    "17.1": {
+      "file": "full_book_v7_p387.xhtml",
+      "page": 387,
+      "id": "fig-full_book_v7-149"
+    },
+    "17.2": {
+      "file": "full_book_v7_p388.xhtml",
+      "page": 388,
+      "id": "fig-p388_fig150"
+    },
+    "18.2": {
+      "file": "full_book_v7_p411.xhtml",
+      "page": 411,
+      "id": "fig-full_book_v7-153"
+    },
+    "19.1": {
+      "file": "full_book_v7_p419.xhtml",
+      "page": 419,
+      "id": "fig-full_book_v7-154"
+    },
+    "19.2": {
+      "file": "full_book_v7_p421.xhtml",
+      "page": 421,
+      "id": "fig-full_book_v7-157"
+    },
+    "19.3": {
+      "file": "full_book_v7_p422.xhtml",
+      "page": 422,
+      "id": "fig-p422_fig158"
+    },
+    "19.4": {
+      "file": "full_book_v7_p423.xhtml",
+      "page": 423,
+      "id": "fig-full_book_v7-159"
+    },
+    "19.5": {
+      "file": "full_book_v7_p428.xhtml",
+      "page": 428,
+      "id": "fig-p428_fig163"
+    },
+    "19.6": {
+      "file": "full_book_v7_p429.xhtml",
+      "page": 429,
+      "id": "fig-full_book_v7-164"
+    },
+    "19.7": {
+      "file": "full_book_v7_p430.xhtml",
+      "page": 430,
+      "id": "fig-p430_fig165"
+    },
+    "19.8": {
+      "file": "full_book_v7_p431.xhtml",
+      "page": 431,
+      "id": "fig-full_book_v7-166"
+    },
+    "19.9": {
+      "file": "full_book_v7_p432.xhtml",
+      "page": 432,
+      "id": "fig-p432_fig167"
+    },
+    "19.10": {
+      "file": "full_book_v7_p433.xhtml",
+      "page": 433,
+      "id": "fig-full_book_v7-169"
+    },
+    "19.11": {
+      "file": "full_book_v7_p435.xhtml",
+      "page": 435,
+      "id": "fig-full_book_v7-170"
+    },
+    "20.1": {
+      "file": "full_book_v7_p453.xhtml",
+      "page": 453,
+      "id": "fig-full_book_v7-174"
+    },
+    "20.2": {
+      "file": "full_book_v7_p454.xhtml",
+      "page": 454,
+      "id": "fig-full_book_v7-175"
+    },
+    "20.3": {
+      "file": "full_book_v7_p456.xhtml",
+      "page": 456,
+      "id": "fig-full_book_v7-177"
+    },
+    "20.4": {
+      "file": "full_book_v7_p457.xhtml",
+      "page": 457,
+      "id": "fig-full_book_v7-178"
+    },
+    "20.5": {
+      "file": "full_book_v7_p461.xhtml",
+      "page": 461,
+      "id": "fig-full_book_v7-181"
+    },
+    "20.6": {
+      "file": "full_book_v7_p461.xhtml",
+      "page": 461,
+      "id": "fig-full_book_v7-182"
+    },
+    "20.7": {
+      "file": "full_book_v7_p462.xhtml",
+      "page": 462,
+      "id": "fig-full_book_v7-184"
+    },
+    "20A.1": {
+      "file": "full_book_v7_p468.xhtml",
+      "page": 468,
+      "id": "fig-full_book_v7-185a"
+    },
+    "20A.2": {
+      "file": "full_book_v7_p469.xhtml",
+      "page": 469,
+      "id": "fig-full_book_v7-185b"
+    },
+    "21.1": {
+      "file": "full_book_v7_p471.xhtml",
+      "page": 471,
+      "id": "fig-full_book_v7-185"
+    },
+    "21.2": {
+      "file": "full_book_v7_p473.xhtml",
+      "page": 473,
+      "id": "fig-full_book_v7-187"
+    },
+    "21.4": {
+      "file": "full_book_v7_p476.xhtml",
+      "page": 476,
+      "id": "fig-p476_fig189"
+    },
+    "21.5": {
+      "file": "full_book_v7_p478.xhtml",
+      "page": 478,
+      "id": "fig-p478_fig190"
+    },
+    "21.6": {
+      "file": "full_book_v7_p479.xhtml",
+      "page": 479,
+      "id": "fig-full_book_v7-191"
+    },
+    "21.7": {
+      "file": "full_book_v7_p481.xhtml",
+      "page": 481,
+      "id": "fig-full_book_v7-192"
+    },
+    "21.8": {
+      "file": "full_book_v7_p482.xhtml",
+      "page": 482,
+      "id": "fig-p482_fig193"
+    },
+    "21.3": {
+      "file": "full_book_v7_p495.xhtml",
+      "page": 495,
+      "id": "fig-full_book_v7-204"
+    },
+    "21.9": {
+      "file": "full_book_v7_p484.xhtml",
+      "page": 484,
+      "id": "fig-p484_fig195"
+    },
+    "21.10": {
+      "file": "full_book_v7_p485.xhtml",
+      "page": 485,
+      "id": "fig-full_book_v7-196"
+    },
+    "21.11": {
+      "file": "full_book_v7_p486.xhtml",
+      "page": 486,
+      "id": "fig-p486_fig197"
+    },
+    "21.12": {
+      "file": "full_book_v7_p487.xhtml",
+      "page": 487,
+      "id": "fig-full_book_v7-198"
+    },
+    "21.13": {
+      "file": "full_book_v7_p489.xhtml",
+      "page": 489,
+      "id": "fig-full_book_v7-200"
+    },
+    "21.14": {
+      "file": "full_book_v7_p499.xhtml",
+      "page": 499,
+      "id": "fig-full_book_v7-205"
+    },
+    "21.15": {
+      "file": "full_book_v7_p500.xhtml",
+      "page": 500,
+      "id": "fig-full_book_v7-206"
+    },
+    "21.16": {
+      "file": "full_book_v7_p504.xhtml",
+      "page": 504,
+      "id": "fig-full_book_v7-209"
+    },
+    "21.17": {
+      "file": "full_book_v7_p506.xhtml",
+      "page": 506,
+      "id": "fig-p506_fig212"
+    },
+    "21.18": {
+      "file": "full_book_v7_p508.xhtml",
+      "page": 508,
+      "id": "fig-full_book_v7-213"
+    },
+    "22.1": {
+      "file": "full_book_v7_p516.xhtml",
+      "page": 516,
+      "id": "fig-full_book_v7-214"
+    },
+    "22.2": {
+      "file": "full_book_v7_p516.xhtml",
+      "page": 516,
+      "id": "fig-full_book_v7-215"
+    },
+    "22.3": {
+      "file": "full_book_v7_p530.xhtml",
+      "page": 530,
+      "id": "fig-p530_fig225"
+    },
+    "22.4": {
+      "file": "full_book_v7_p531.xhtml",
+      "page": 531,
+      "id": "fig-full_book_v7-226"
+    },
+    "22.5": {
+      "file": "full_book_v7_p531.xhtml",
+      "page": 531,
+      "id": "fig-full_book_v7-227"
+    },
+    "22.6": {
+      "file": "full_book_v7_p536.xhtml",
+      "page": 536,
+      "id": "fig-p536_fig230"
+    },
+    "23.1": {
+      "file": "full_book_v7_p551.xhtml",
+      "page": 551,
+      "id": "fig-full_book_v7-234"
+    },
+    "23.2": {
+      "file": "full_book_v7_p551.xhtml",
+      "page": 551,
+      "id": "fig-full_book_v7-235"
+    },
+    "23.3": {
+      "file": "full_book_v7_p554.xhtml",
+      "page": 554,
+      "id": "fig-full_book_v7-238"
+    },
+    "25.1": {
+      "file": "full_book_v7_p589.xhtml",
+      "page": 589,
+      "id": "fig-full_book_v7-250"
+    },
+    "25.3": {
+      "file": "full_book_v7_p606.xhtml",
+      "page": 606,
+      "id": "fig-p606_fig260"
+    },
+    "26.1": {
+      "file": "full_book_v7_p633.xhtml",
+      "page": 633,
+      "id": "fig-full_book_v7-262"
+    },
+    "27.1": {
+      "file": "full_book_v7_p645.xhtml",
+      "page": 645,
+      "id": "fig-full_book_v7-265"
+    },
+    "27.3": {
+      "file": "full_book_v7_p655.xhtml",
+      "page": 655,
+      "id": "fig-full_book_v7-270"
+    },
+    "27.4": {
+      "file": "full_book_v7_p657.xhtml",
+      "page": 657,
+      "id": "fig-full_book_v7-271"
+    },
+    "27.5": {
+      "file": "full_book_v7_p658.xhtml",
+      "page": 658,
+      "id": "fig-full_book_v7-272"
+    },
+    "29.1": {
+      "file": "full_book_v7_p691.xhtml",
+      "page": 691,
+      "id": "fig-full_book_v7-279"
+    },
+    "29.2": {
+      "file": "full_book_v7_p691.xhtml",
+      "page": 691,
+      "id": "fig-full_book_v7-280"
+    },
+    "30.1": {
+      "file": "full_book_v7_p708.xhtml",
+      "page": 708,
+      "id": "fig-p708_fig281"
+    },
+    "31.1": {
+      "file": "full_book_v7_p722.xhtml",
+      "page": 722,
+      "id": "fig-full_book_v7-282"
+    },
+    "31.2": {
+      "file": "full_book_v7_p724.xhtml",
+      "page": 724,
+      "id": "fig-full_book_v7-283"
+    },
+    "32.1": {
+      "file": "full_book_v7_p733.xhtml",
+      "page": 733,
+      "id": "fig-full_book_v7-285"
+    },
+    "32.2": {
+      "file": "full_book_v7_p735.xhtml",
+      "page": 735,
+      "id": "fig-full_book_v7-287"
+    },
+    "32.3": {
+      "file": "full_book_v7_p738.xhtml",
+      "page": 738,
+      "id": "fig-p738_fig288"
+    },
+    "32.4": {
+      "file": "full_book_v7_p739.xhtml",
+      "page": 739,
+      "id": "fig-full_book_v7-289"
+    },
+    "32.5": {
+      "file": "full_book_v7_p740.xhtml",
+      "page": 740,
+      "id": "fig-p740_fig291"
+    },
+    "32.6": {
+      "file": "full_book_v7_p741.xhtml",
+      "page": 741,
+      "id": "fig-full_book_v7-292"
+    },
+    "32.7": {
+      "file": "full_book_v7_p744.xhtml",
+      "page": 744,
+      "id": "fig-full_book_v7-294"
+    },
+    "32.8": {
+      "file": "full_book_v7_p747.xhtml",
+      "page": 747,
+      "id": "fig-full_book_v7-296"
+    },
+    "32.9": {
+      "file": "full_book_v7_p750.xhtml",
+      "page": 750,
+      "id": "fig-full_book_v7-299"
+    },
+    "33.1": {
+      "file": "full_book_v7_p758.xhtml",
+      "page": 758,
+      "id": "fig-full_book_v7-300"
+    },
+    "35.1": {
+      "file": "full_book_v7_p791.xhtml",
+      "page": 791,
+      "id": "fig-full_book_v7-306"
+    },
+    "35.2": {
+      "file": "full_book_v7_p792.xhtml",
+      "page": 792,
+      "id": "fig-full_book_v7-307"
+    },
+    "35.3": {
+      "file": "full_book_v7_p793.xhtml",
+      "page": 793,
+      "id": "fig-full_book_v7-308"
+    },
+    "36.1": {
+      "file": "full_book_v7_p809.xhtml",
+      "page": 809,
+      "id": "fig-full_book_v7-309"
+    },
+    "36.2": {
+      "file": "full_book_v7_p810.xhtml",
+      "page": 810,
+      "id": "fig-full_book_v7-312"
+    },
+    "36.3": {
+      "file": "full_book_v7_p811.xhtml",
+      "page": 811,
+      "id": "fig-full_book_v7-313"
+    },
+    "36.4": {
+      "file": "full_book_v7_p812.xhtml",
+      "page": 812,
+      "id": "fig-full_book_v7-314"
+    }
+  },
+  "sections": {
+    "1.1": {
+      "file": "full_book_v7_p24.xhtml",
+      "page": 24,
+      "id": "sec-1-1"
+    },
+    "1.3": {
+      "file": "full_book_v7_p28.xhtml",
+      "page": 28,
+      "id": "sec-1-3"
+    },
+    "1.4": {
+      "file": "full_book_v7_p30.xhtml",
+      "page": 30,
+      "id": "sec-1-4"
+    },
+    "1.6": {
+      "file": "full_book_v7_p33.xhtml",
+      "page": 33,
+      "id": "sec-1-6"
+    },
+    "1.7": {
+      "file": "full_book_v7_p34.xhtml",
+      "page": 34,
+      "id": "sec-1-7"
+    },
+    "1.8": {
+      "file": "full_book_v7_p36.xhtml",
+      "page": 36,
+      "id": "sec-1-8"
+    },
+    "2.2": {
+      "file": "full_book_v7_p48.xhtml",
+      "page": 48,
+      "id": "sec-2-2"
+    },
+    "2.3": {
+      "file": "full_book_v7_p50.xhtml",
+      "page": 50,
+      "id": "sec-2-3"
+    },
+    "2.5": {
+      "file": "full_book_v7_p54.xhtml",
+      "page": 54,
+      "id": "sec-2-5"
+    },
+    "2.7": {
+      "file": "full_book_v7_p60.xhtml",
+      "page": 60,
+      "id": "sec-2-7"
+    },
+    "2.9": {
+      "file": "full_book_v7_p62.xhtml",
+      "page": 62,
+      "id": "sec-2-9"
+    },
+    "2.11": {
+      "file": "full_book_v7_p64.xhtml",
+      "page": 64,
+      "id": "sec-2-11"
+    },
+    "3.2": {
+      "file": "full_book_v7_p72.xhtml",
+      "page": 72,
+      "id": "sec-3-2"
+    },
+    "6.3": {
+      "file": "full_book_v7_p160.xhtml",
+      "page": 160,
+      "id": "sec-6-3"
+    },
+    "7.3": {
+      "file": "full_book_v7_p176.xhtml",
+      "page": 176,
+      "id": "sec-7-3"
+    },
+    "7.4": {
+      "file": "full_book_v7_p178.xhtml",
+      "page": 178,
+      "id": "sec-7-4"
+    },
+    "7.6": {
+      "file": "full_book_v7_p183.xhtml",
+      "page": 183,
+      "id": "sec-7-6"
+    },
+    "7.8": {
+      "file": "full_book_v7_p186.xhtml",
+      "page": 186,
+      "id": "sec-7-8"
+    },
+    "7.10": {
+      "file": "full_book_v7_p192.xhtml",
+      "page": 192,
+      "id": "sec-7-10"
+    },
+    "7.13": {
+      "file": "full_book_v7_p194.xhtml",
+      "page": 194,
+      "id": "sec-7-13"
+    }
+  }
+}
